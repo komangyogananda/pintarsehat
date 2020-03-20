@@ -1,0 +1,1733 @@
+1584636313830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLnqNh3"
+1584636314236	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636314510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636314510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636314510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636314511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636315927	Marionette	INFO	Listening on port 40435
+1584636315940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636318984	Marionette	INFO	Stopped listening on port 40435
+1584636443020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYtdl4c"
+*** You are running in headless mode.
+1584636443233	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636443468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636443468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636443468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636443468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636444743	Marionette	INFO	Listening on port 44115
+1584636444825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636469205	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletHM2bg"
+*** You are running in headless mode.
+1584636469401	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636469634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636469634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636469634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636469634	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636470839	Marionette	INFO	Listening on port 40655
+1584636470911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636475883	Marionette	INFO	Stopped listening on port 40655
+1584636694360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile10jKQb"
+*** You are running in headless mode.
+1584636694555	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636694769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636694769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636694769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636694769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636695983	Marionette	INFO	Listening on port 42153
+1584636696067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636730626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVaR5qD"
+*** You are running in headless mode.
+1584636730824	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636731075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636731075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636731076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636731076	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636732439	Marionette	INFO	Listening on port 45775
+1584636732531	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584636898902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileE32Fab"
+*** You are running in headless mode.
+1584636899100	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636899375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636899375	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636899376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636899376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636900677	Marionette	INFO	Listening on port 45485
+1584636900707	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636932849	Marionette	INFO	Stopped listening on port 45485
+1584636947606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTAyIaX"
+*** You are running in headless mode.
+1584636947801	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584636948011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584636948012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584636948012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584636948012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584636949221	Marionette	INFO	Listening on port 41901
+1584636949317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584636978278	Marionette	INFO	Stopped listening on port 41901
+1584637080866	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNHy1MY"
+*** You are running in headless mode.
+1584637081065	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637081335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637081335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637081335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637081335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637082605	Marionette	INFO	Listening on port 35317
+1584637082671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584637110504	Marionette	INFO	Stopped listening on port 35317
+1584637175662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBhKVNc"
+*** You are running in headless mode.
+1584637175857	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637176405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637176405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637176406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637176406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637177663	Marionette	INFO	Listening on port 37689
+1584637177672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584637213518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP5d0EN"
+*** You are running in headless mode.
+1584637213712	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637213972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637213973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637213973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637213973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637215233	Marionette	INFO	Listening on port 35521
+1584637215322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584637323454	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilessN111"
+*** You are running in headless mode.
+1584637323652	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637323874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637323874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637323874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637323874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637325068	Marionette	INFO	Listening on port 35907
+1584637325162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584637408003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8NIQbM"
+*** You are running in headless mode.
+1584637408214	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637408435	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637408435	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637408435	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637408436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637409730	Marionette	INFO	Listening on port 42577
+1584637409808	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584637702164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8J9wO8"
+*** You are running in headless mode.
+1584637702359	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637702999	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637703000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637703000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637703000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637704241	Marionette	INFO	Listening on port 40533
+1584637704270	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+1584637710222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCOYF93"
+*** You are running in headless mode.
+1584637710425	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637710635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637710635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637710635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637710635	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637711810	Marionette	INFO	Listening on port 44697
+1584637711830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584637758941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledFmmKB"
+*** You are running in headless mode.
+1584637759134	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637759363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637759363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637759363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637759364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637760590	Marionette	INFO	Listening on port 41549
+1584637760646	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584637847149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilernfk2R"
+1584637847391	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584637847621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584637847621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584637847621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584637847621	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584637848969	Marionette	INFO	Listening on port 37677
+1584637849054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584638018403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSWoc3n"
+1584638018627	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584638018941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584638018941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584638018941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584638018941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584638020222	Marionette	INFO	Listening on port 34769
+1584638020311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584638035947	Marionette	INFO	Stopped listening on port 37677
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584638061815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSYSy6o"
+1584638062041	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584638062312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584638062312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584638062312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584638062312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584638063656	Marionette	INFO	Listening on port 40547
+1584638063737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584638066296	Marionette	INFO	Stopped listening on port 34769
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584638764681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePsULfd"
+1584638764910	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584638765130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584638765131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584638765131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584638765131	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584638766563	Marionette	INFO	Listening on port 35455
+1584638766586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584638851649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9xDuJb"
+1584638851874	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584638852091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584638852091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584638852091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584638852091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584638853399	Marionette	INFO	Listening on port 33719
+1584638853454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584638858404	Marionette	INFO	Stopped listening on port 35455
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639068212	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebZUL7Q"
+1584639068452	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639068738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639068738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639068738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639068738	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639070023	Marionette	INFO	Listening on port 38155
+1584639070120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584639108146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOFGQvE"
+1584639108377	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639108620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639108620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639108620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639108620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639110036	Marionette	INFO	Listening on port 38823
+1584639110058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584639113800	Marionette	INFO	Stopped listening on port 38155
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639205323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2S7U9Q"
+1584639205557	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639205772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639205772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639205772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639205772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639207189	Marionette	INFO	Listening on port 35961
+1584639207228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639401692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCluGda"
+1584639401934	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639402138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639402138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639402138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639402138	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639403459	Marionette	INFO	Listening on port 37573
+1584639403496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639771802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek3Bznr"
+1584639772033	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639772263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639772263	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639772264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639772264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639773548	Marionette	INFO	Listening on port 44437
+1584639773607	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639832749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNjhbw1"
+1584639832975	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639833196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639833197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639833197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639833197	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639834499	Marionette	INFO	Listening on port 41337
+1584639834554	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584639918344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN1MGpu"
+1584639918570	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584639918777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584639918777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584639918777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584639918777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584639920134	Marionette	INFO	Listening on port 41351
+1584639920149	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584639958534	Marionette	INFO	Stopped listening on port 41351
+1584640032981	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePPXkNo"
+1584640033221	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640033466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640033467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640033467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640033467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640034849	Marionette	INFO	Listening on port 36897
+1584640034886	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584640148663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7hFL3T"
+1584640148902	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640149129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640149129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640149129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640149129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640150470	Marionette	INFO	Listening on port 45177
+1584640150572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584640490108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHM7Xmm"
+1584640490338	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640490546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640490547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640490547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640490547	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640491891	Marionette	INFO	Listening on port 39459
+1584640491914	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584640550354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileggONL7"
+1584640550604	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640550833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640550833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640550833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640550833	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640552136	Marionette	INFO	Listening on port 39497
+1584640552159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584640891208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNyCuMH"
+1584640891437	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640891853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640891854	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640891854	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640891854	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640893169	Marionette	INFO	Listening on port 45813
+1584640893213	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584640926336	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEekijY"
+1584640926575	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640926792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640926792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640926792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640926792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640928169	Marionette	INFO	Listening on port 37177
+1584640928240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584640984846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileawL4my"
+1584640985090	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584640985318	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584640985318	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584640985318	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584640985319	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584640986658	Marionette	INFO	Listening on port 45445
+1584640986753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584641020709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegIqrYh"
+1584641020937	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641021182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641021182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641021182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641021182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641022565	Marionette	INFO	Listening on port 46519
+1584641022614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584641031658	Marionette	INFO	Stopped listening on port 39459
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1584641032351	Marionette	INFO	Stopped listening on port 45813
+1584641035154	Marionette	INFO	Stopped listening on port 45445
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584641093120	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuIinN0"
+1584641093363	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641093583	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641093583	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641093584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641093584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641095107	Marionette	INFO	Listening on port 45897
+1584641095127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584641143789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile66WrJV"
+1584641144033	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641144262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641144262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641144262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641144262	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641145614	Marionette	INFO	Listening on port 36755
+1584641145694	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584641194944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLb7bwp"
+1584641195179	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641195407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641195407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641195407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641195407	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641196882	Marionette	INFO	Listening on port 36625
+1584641196949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584641526693	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile30KDAl"
+1584641526925	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641527201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641527201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641527201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641527201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641528487	Marionette	INFO	Listening on port 45949
+1584641528501	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584641615103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDaoEGD"
+1584641615339	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641615555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641615555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641615555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641615555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641616921	Marionette	INFO	Listening on port 45845
+1584641617008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584641730809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiYaJ26"
+1584641731043	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641731265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641731265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641731265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641731265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641732636	Marionette	INFO	Listening on port 36469
+1584641732713	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1584641734601	Marionette	INFO	Stopped listening on port 45845
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584641812557	Marionette	INFO	Stopped listening on port 36469
+1584641822994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileapkUgM"
+*** You are running in headless mode.
+1584641823193	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641823415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641823415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641823415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641823415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641824681	Marionette	INFO	Listening on port 33451
+1584641824700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584641939894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile60mti3"
+*** You are running in headless mode.
+1584641940096	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641940344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641940344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641940344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641940345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641941683	Marionette	INFO	Listening on port 45327
+1584641941702	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584641977194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile74w6G2"
+*** You are running in headless mode.
+1584641977398	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584641977674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584641977674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584641977674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584641977674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584641978936	Marionette	INFO	Listening on port 46135
+1584641979003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642035016	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileofDAyw"
+*** You are running in headless mode.
+1584642035214	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642035439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642035439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642035439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642035439	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584642036700	Marionette	INFO	Listening on port 41407
+1584642036721	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642107293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9HW2rz"
+*** You are running in headless mode.
+1584642107490	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642107769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642107769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642107769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642107770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584642109005	Marionette	INFO	Listening on port 33029
+1584642109102	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642171208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevdwkKP"
+*** You are running in headless mode.
+1584642171405	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642171690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642171690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642171691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642171691	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584642172922	Marionette	INFO	Listening on port 40063
+1584642173013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642237144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDpVEdY"
+*** You are running in headless mode.
+1584642237341	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642237549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642237549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642237549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642237549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584642238791	Marionette	INFO	Listening on port 34569
+1584642238852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642388942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoZw4O7"
+*** You are running in headless mode.
+1584642389147	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642389371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642389371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642389371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642389371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:26:30Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642390575	Marionette	INFO	Listening on port 38103
+1584642390647	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584642466842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexDw3C3"
+*** You are running in headless mode.
+1584642467039	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642467243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642467243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642467243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642467243	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:27:47Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642468437	Marionette	INFO	Listening on port 46173
+1584642468449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584642544236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1S8qfk"
+*** You are running in headless mode.
+1584642544438	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642544671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642544671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642544671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642544671	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:29:05Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642545851	Marionette	INFO	Listening on port 37231
+1584642545944	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+1584642733133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMG053Y"
+*** You are running in headless mode.
+1584642733337	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642733555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642733555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642733555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642733555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:32:14Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642734832	Marionette	INFO	Listening on port 41915
+1584642734844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642779980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelVPieH"
+*** You are running in headless mode.
+1584642780192	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642780411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642780411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642780411	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642780412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:33:01Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642781702	Marionette	INFO	Listening on port 43721
+1584642781789	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584642876220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ14Pxe"
+*** You are running in headless mode.
+1584642876426	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642876674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642876674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642876674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642876675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:34:37Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642877891	Marionette	INFO	Listening on port 37959
+1584642877925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584642973218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile80sGcM"
+*** You are running in headless mode.
+1584642973426	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584642973696	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584642973696	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584642973696	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584642973697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:36:14Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584642974997	Marionette	INFO	Listening on port 46851
+1584642975025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584643022498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9n01p3"
+*** You are running in headless mode.
+1584643022695	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584643022911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584643022911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584643022911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584643022911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:37:03Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584643024245	Marionette	INFO	Listening on port 44173
+1584643024303	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+1584643590628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJullr5"
+*** You are running in headless mode.
+1584643590825	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584643591037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584643591038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584643591038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584643591038	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:46:31Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584643592294	Marionette	INFO	Listening on port 43797
+1584643592333	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584643678058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDp26fq"
+*** You are running in headless mode.
+1584643678253	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584643678466	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584643678467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584643678467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584643678467	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:47:59Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584643679701	Marionette	INFO	Listening on port 45681
+1584643679763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584643724018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ6Zo2e"
+*** You are running in headless mode.
+1584643724216	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584643724430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584643724430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584643724430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584643724430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:48:45Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584643725645	Marionette	INFO	Listening on port 32771
+1584643725725	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+1584644028338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefy2lhZ"
+*** You are running in headless mode.
+1584644028547	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584644028779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584644028779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584644028779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584644028779	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:53:49Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584644030028	Marionette	INFO	Listening on port 39171
+1584644030043	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584644174577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2L1IMh"
+*** You are running in headless mode.
+1584644174790	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584644175030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584644175030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584644175031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584644175031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T18:56:15Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584644176341	Marionette	INFO	Listening on port 43195
+1584644176382	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584644563736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledIPwoU"
+*** You are running in headless mode.
+1584644563941	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584644564160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584644564160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584644564160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584644564160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584644567990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFvBkVJ"
+*** You are running in headless mode.
+1584644568185	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584644568400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584644568400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584644568400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584644568400	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:02:48Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584644569566	Marionette	INFO	Listening on port 39401
+1584644569595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584645102227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenhcBD9"
+*** You are running in headless mode.
+1584645102430	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584645102659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584645102659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584645102659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584645102659	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:11:43Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584645103954	Marionette	INFO	Listening on port 36831
+1584645104032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1584645379983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilew8yS1o"
+*** You are running in headless mode.
+1584645380190	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584645380419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584645380419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584645380419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584645380419	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:16:21Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584645381681	Marionette	INFO	Listening on port 46457
+1584645381688	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584645481527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileax6a04"
+*** You are running in headless mode.
+1584645481723	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584645482109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584645482109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584645482109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584645482109	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:18:02Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584645483369	Marionette	INFO	Listening on port 33665
+1584645483433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584645558459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQOGGNy"
+*** You are running in headless mode.
+1584645558658	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584645558868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584645558868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584645558868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584645558868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:19:19Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584645560052	Marionette	INFO	Listening on port 35895
+1584645560064	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+1584645722545	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile807pf6"
+*** You are running in headless mode.
+1584645722746	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584645723033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584645723033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584645723033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584645723033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:22:03Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584645724326	Marionette	INFO	Listening on port 42847
+1584645724349	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+console.error: services.settings: 
+  Message: Error: Response from server unparseable (HTTP 502; SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data): <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+  Stack:
+    processResponse@resource://services-common/kinto-http-client.js:2918:21
+
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00014, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00015, line 20: SyntaxError: expected expression, got '|'
+1584646844914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerZVSYs"
+*** You are running in headless mode.
+1584646845110	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584646845333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584646845333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584646845333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584646845333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:40:45Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584646846561	Marionette	INFO	Listening on port 46387
+1584646846619	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00014, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00015, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00016, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00017, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00018, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584647005626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAfZp9u"
+*** You are running in headless mode.
+1584647005837	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584647006058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584647006058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584647006058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584647006058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[2020-03-19T19:43:26Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+1584647007310	Marionette	INFO	Listening on port 38311
+1584647007331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00014, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00015, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00016, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00017, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00018, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00019, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00021, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00022, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00023, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00024, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00025, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00026, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00027, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00028, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00029, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00030, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00031, line 25: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00032, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00033, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00034, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00035, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00036, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00037, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00039, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00040, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00041, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00041, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00042, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00043, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00044, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00045, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00047, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00048, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00049, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00050, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00052, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00053, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00054, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00055, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00056, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00057, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00059, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00060, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00061, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00063, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00064, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00065, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00066, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00067, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00068, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00069, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00070, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00071, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00072, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00073, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00074, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00075, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00076, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00077, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00079, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00081, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00082, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00083, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00084, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00085, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00086, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00087, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00088, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00089, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00091, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00092, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00093, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00094, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00095, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00097, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00098, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00099, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00100, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00101, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00102, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00103, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00105, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00106, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00107, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00108, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00110, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00112, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00113, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00115, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00117, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00118, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00119, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00121, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00122, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00124, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00125, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00126, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00127, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00128, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00129, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00130, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00131, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00132, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00133, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00134, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00135, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00136, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00137, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00138, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00139, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00140, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00141, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00142, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00143, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00144, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00145, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00146, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00147, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00148, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00149, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00150, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00151, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00152, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00153, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00154, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00155, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00156, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00158, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00159, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00160, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00161, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00162, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00163, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00164, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00165, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00166, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00167, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00169, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00170, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00171, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00172, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00173, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00174, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00175, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00176, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00177, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00178, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00179, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00180, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00181, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00183, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00186, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00187, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00188, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00189, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00191, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00192, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00193, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00194, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00196, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00197, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00198, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00199, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00200, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00202, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00203, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00204, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00205, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00206, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00208, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00215, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00224, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00228, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00237, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00242, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00243, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00245, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00246, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00247, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00252, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00253, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00256, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00261, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00264, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00268, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00276, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00280, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00281, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00282, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00283, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00284, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00285, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00286, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00287, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00288, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00289, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00290, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00292, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00293, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00294, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00295, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00296, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00297, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00298, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00303, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00304, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00305, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00306, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00309, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00311, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00313, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00314, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00315, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00316, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00317, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00318, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00319, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00321, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00322, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00323, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00324, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00325, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00326, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00327, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00331, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00333, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00334, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00336, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00337, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00338, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00339, line 18: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1584683158436	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDNXXIi"
+*** You are running in headless mode.
+1584683158759	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584683159106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584683159106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584683159106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584683159106	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584683160311	Marionette	INFO	Listening on port 44311
+1584683160341	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584684852468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9BJcjg"
+*** You are running in headless mode.
+1584684852659	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584684852914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584684852914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584684852914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584684852914	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584684854099	Marionette	INFO	Listening on port 39817
+1584684854172	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584684882762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenQoaCZ"
+*** You are running in headless mode.
+1584684882953	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584684883160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584684883160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584684883160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584684883160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584684884441	Marionette	INFO	Listening on port 41653
+1584684884467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00014, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00015, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00016, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00017, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00018, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00019, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00021, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00022, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00023, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00024, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00025, line 19: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1584685073303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6KVCDT"
+*** You are running in headless mode.
+1584685073506	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584685073725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584685073725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584685073725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584685073725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1584685074974	Marionette	INFO	Listening on port 32809
+1584685075007	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://foodb.ca/foods/FOOD00001, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00002, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00003, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00004, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00005, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00006, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00007, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00008, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00009, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00010, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00011, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00012, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00013, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00014, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00015, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00016, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00017, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00018, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00019, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00021, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00022, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00023, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00024, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00025, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00026, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00027, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00028, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00029, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00030, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00031, line 25: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00032, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00033, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00034, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00035, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00036, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00037, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00039, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00040, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00041, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00042, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00043, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00044, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00045, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00047, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00048, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00049, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00050, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00052, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00053, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00054, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00055, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00056, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00057, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00059, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00060, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00061, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00063, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00064, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00065, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00066, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00067, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00068, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00069, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00070, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00071, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00072, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00073, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00074, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00075, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00076, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00077, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00079, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00081, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00082, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00083, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00084, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00085, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00086, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00087, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00088, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00089, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00091, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00092, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00093, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00094, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00095, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00097, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00098, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00099, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00100, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00101, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00102, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00103, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00105, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00106, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00107, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00108, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00110, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00112, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00113, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00115, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00117, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00118, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00119, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00121, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00122, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00124, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00125, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00126, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00127, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00128, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00129, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00130, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00131, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00132, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00133, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00134, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00135, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00136, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00137, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00138, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00139, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00140, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00141, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00142, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00143, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00144, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00145, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00146, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00147, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00148, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00149, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00150, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00151, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00152, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00153, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00154, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00155, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00156, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00158, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00159, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00160, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00161, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00162, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00163, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00164, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00165, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00166, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00167, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00169, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00170, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00171, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00172, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00173, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00174, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00175, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00176, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00177, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00178, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00179, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00180, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00181, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00183, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00186, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00187, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00188, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00189, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00191, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00192, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00193, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00194, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00196, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00197, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00198, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00199, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00200, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00202, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00203, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00204, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00205, line 23: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00206, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00208, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00215, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00224, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00228, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00237, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00242, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00243, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00245, line 24: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00246, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00247, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00252, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00253, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00256, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00261, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00264, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00268, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00276, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00280, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00281, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00282, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00283, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00284, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00285, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00286, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00287, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00288, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00289, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00290, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00292, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00293, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00294, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00295, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00296, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00297, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00298, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00303, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00304, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00305, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00306, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00309, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00311, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00313, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00314, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00315, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00316, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00317, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00318, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00319, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00321, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00322, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00323, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00324, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00325, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00326, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00327, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00331, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00333, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00334, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00336, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00337, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00338, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00339, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00341, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00342, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00343, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00346, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00350, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00351, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00352, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00354, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00355, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00356, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00358, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00363, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00364, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00366, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00367, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00369, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00370, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00374, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00375, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00376, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00379, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00380, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00381, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00382, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00384, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00385, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00386, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00387, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00388, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00389, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00390, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00392, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00393, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00394, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00396, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00397, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00398, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00399, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00401, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00402, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00403, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00404, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00405, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00408, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00409, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00410, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00411, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00412, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00413, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00414, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00415, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00416, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00417, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00420, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00424, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00425, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00428, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00429, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00431, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00433, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00434, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00435, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00436, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00437, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00439, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00441, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00443, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00444, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00445, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00446, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00447, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00448, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00449, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00450, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00451, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00452, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00453, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00454, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00455, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00457, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00458, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00459, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00463, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00469, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00470, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00474, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00475, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00476, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00478, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00479, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00480, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00483, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00484, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00485, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00486, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00487, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00488, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00489, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00490, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00491, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00492, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00493, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00496, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00497, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00498, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00499, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00500, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00502, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00503, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00505, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00506, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00507, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00508, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00509, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00510, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00511, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00513, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00515, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00516, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00520, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00522, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00523, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00524, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00525, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00528, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00529, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00530, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00535, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00536, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00539, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00540, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00541, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00543, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00544, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00545, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00546, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00547, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00548, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00550, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00551, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00555, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00556, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00557, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00559, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00561, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00562, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00563, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00564, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00569, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00571, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00573, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00577, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00578, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00584, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00585, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00586, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00587, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00591, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00594, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00596, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00599, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00605, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00607, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00608, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00616, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00617, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00619, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00620, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00625, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00625, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00625, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00625, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00625, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00628, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00631, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00632, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00650, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00656, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00666, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00685, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00690, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00696, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00698, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00699, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00736, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00741, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00753, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00763, line 22: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00775, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00776, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00777, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00788, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00797, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00809, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00843, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00851, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00851, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00851, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00851, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00851, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00874, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00875, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00876, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00877, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00878, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00879, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00880, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00881, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00882, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00883, line 21: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00886, line 20: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00887, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00888, line 18: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00898, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00898, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00898, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00898, line 19: SyntaxError: expected expression, got '|'
+JavaScript error: https://foodb.ca/foods/FOOD00898, line 19: SyntaxError: expected expression, got '|'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
