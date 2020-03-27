@@ -9,7 +9,7 @@ firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-f = open('new_foods.json', 'r')
+f = open('brand.json', 'r')
 foods = json.load(f)
 f.close()
 

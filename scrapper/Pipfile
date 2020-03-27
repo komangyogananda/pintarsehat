@@ -9,6 +9,7 @@ verify_ssl = true
 requests = "*"
 selenium = "*"
 bs4 = "*"
+firebase-admin = "*"
 
 [requires]
 python_version = "3.6"

@@ -1,4 +1,4 @@
-package com.example.pintarsehat
+package com.kulguy.pintarsehat
 
 import org.junit.Test
 

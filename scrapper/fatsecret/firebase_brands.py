@@ -9,7 +9,7 @@ firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
-f = open('brands.json', 'r')
+f = open('brand.json', 'r')
 foods = json.load(f)
 f.close()
 
@@ -27,11 +27,14 @@ for food in foods:
       'products': []
     }
   else:
-    food = food.strip()
-    food = food.replace('/', ',')
-    collected_brands[brand]['products'].append(food)
+    ref_data = {
+      'ref_id': food,
+      'title': foods[food]['title'],
+      'portion': foods[food]['default_portion']
+    }
+    collected_brands[brand]['products'].append(ref_data)
 
 for brand in collected_brands:
   print(brand)
-  doc_ref = foods_collections.document('brand')
+  doc_ref = foods_collections.document(brand)
   doc_ref.set(collected_brands[brand])
