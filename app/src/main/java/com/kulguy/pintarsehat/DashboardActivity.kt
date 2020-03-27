@@ -6,16 +6,23 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.core.view.get
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_dashboard.*
+import kotlinx.android.synthetic.main.dashboard_content.*
 
 class DashboardActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
+    private val fragmentManager: FragmentManager = supportFragmentManager
+    private val fragment1: Fragment = SearchFragment()
+    private val fragment2: Fragment = PhotoFragment()
+    private val fragment3: Fragment = DailyNutritionFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,11 +41,10 @@ class DashboardActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
-//        logout_button.setOnClickListener{
-//            signOut()
-//        }
         bottom_navigation.menu.getItem(1).isChecked = true
-
+        fragmentManager.beginTransaction().add(dashboard_content.id, fragment3, "fragment3").hide(fragment3).commit()
+        fragmentManager.beginTransaction().add(dashboard_content.id, fragment2, "fragment2").commit()
+        fragmentManager.beginTransaction().add(dashboard_content.id, fragment1, "fragment1").hide(fragment1).commit()
     }
 
     private fun signOut() {
