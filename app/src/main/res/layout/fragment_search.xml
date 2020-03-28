@@ -3,12 +3,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="SearchFragment" />
+        android:paddingHorizontal="36dp"
+        android:clipToPadding="false"
+        android:layout_marginVertical="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/search_fragment_title"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:justificationMode="inter_word"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/search_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/search_makanan"
+                style="@style/button_search_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shapeAppearance="@style/rounded_shape"
+                android:text="Makanan" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/search_senyawa"
+                style="@style/button_search_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Senyawa" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/search_brand"
+                style="@style/button_search_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shapeAppearance="@style/rounded_shape"
+                android:text="Brand"
+                 />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:background="@drawable/rounded_search_bar"
+            android:padding="12dp"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold"
+            android:hint="Search" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Top Search"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
 
 </FrameLayout>

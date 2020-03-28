@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/search"
+        android:id="@+id/navigation_nutrionist"
         android:icon="@drawable/ic_book"
         android:title="Search" />
 
     <item
-        android:id="@+id/photo"
+        android:id="@+id/navigation_photo"
         android:icon="@drawable/ic_camera"
         android:title="Photo" />
 
     <item
-        android:id="@+id/daily_nutrition"
+        android:id="@+id/navigation_daily_nutrition"
         android:icon="@drawable/ic_food"
         android:title="Daily Nutrition" />
 </menu>
