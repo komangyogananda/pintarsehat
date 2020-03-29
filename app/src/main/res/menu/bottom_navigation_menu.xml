@@ -3,15 +3,15 @@
     <item
         android:id="@+id/navigation_nutrionist"
         android:icon="@drawable/ic_book"
-        android:title="Search" />
+        android:title="@string/bottom_navigation_search_title" />
 
     <item
         android:id="@+id/navigation_photo"
         android:icon="@drawable/ic_camera"
-        android:title="Photo" />
+        android:title="@string/bottom_navigation_photo_title" />
 
     <item
         android:id="@+id/navigation_daily_nutrition"
         android:icon="@drawable/ic_food"
-        android:title="Daily Nutrition" />
+        android:title="@string/bottom_navigation_daily_nutrition_title" />
 </menu>

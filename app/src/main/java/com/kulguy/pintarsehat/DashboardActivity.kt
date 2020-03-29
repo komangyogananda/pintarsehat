@@ -16,6 +16,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_dashboard.*
 import kotlinx.android.synthetic.main.dashboard_content.*
+import kotlinx.android.synthetic.main.fragment_search.*
 
 class DashboardActivity : AppCompatActivity() {
 
@@ -45,11 +46,14 @@ class DashboardActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
 
         bottom_navigation.menu.getItem(0).isChecked = true
+        settingUpBottomNavigationAndFragments()
+    }
+
+    private fun settingUpBottomNavigationAndFragments() {
         activeFragment = fragment1
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment3, "fragment3").hide(fragment3).commit()
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment2, "fragment2").hide(fragment2).commit()
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment1, "fragment1").commit()
-
         bottom_navigation.setOnNavigationItemSelectedListener(mBottomNavigationOnNavigationSelectedListener)
     }
 

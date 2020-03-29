@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="24dp"
+            app:checkedButton="@+id/search_makanan"
             >
 
             <com.google.android.material.button.MaterialButton
@@ -69,16 +70,25 @@
             android:padding="12dp"
             android:layout_marginTop="24dp"
             android:textStyle="bold"
-            android:hint="Search" />
+            android:hint="Cari" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Top Search"
+            android:text="Pencarian Terpopuler"
             android:textStyle="bold"
             android:textSize="18sp"
             android:textColor="@color/black"
+            />
+
+        <ListView
+            android:id="@+id/search_results"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
             />
 
     </LinearLayout>

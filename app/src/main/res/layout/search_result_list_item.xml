@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="16dp"
+    android:id="@+id/layout_search_result"
+    android:background="@drawable/rounded_search_result"
+    app:justifyContent="space_between"
+    android:clickable="true"
+    app:flexDirection="row"
+    app:alignItems="center"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/search_result_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daging • 1 Mangkok"
+            android:textAllCaps="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/search_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Daging Ayam"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:alignContent="flex_start"
+            app:alignItems="flex_start"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:showDividerHorizontal="middle"
+            app:dividerDrawableHorizontal="@drawable/divider"
+            >
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_calorie"
+                style="@style/chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kal: 1000kcal"
+                android:textSize="12sp"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_carbo"
+                style="@style/chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bluePrimary10"
+                android:text="Karbo: 1000g"
+                android:textColor="@color/bluePrimary"
+                android:textSize="12sp"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_protein"
+                style="@style/chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bluePrimary10"
+                android:text="Protein: 1000g"
+                android:textColor="@color/bluePrimary"
+                android:textSize="12sp"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_fat"
+                style="@style/chips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/bluePrimary10"
+                android:text="Lemak: 1000g"
+                android:textColor="@color/bluePrimary"
+                android:textSize="12sp"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_keyboard_arrow_right"
+        />
+
+
+</com.google.android.flexbox.FlexboxLayout>
