@@ -8,10 +8,12 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:id="@+id/search_linear_layout_parent"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:paddingHorizontal="36dp"
         android:clipToPadding="false"
+        android:focusableInTouchMode="true"
         android:layout_marginVertical="12dp"
         android:orientation="vertical">
 
@@ -60,17 +62,23 @@
 
         </com.google.android.material.button.MaterialButtonToggleGroup>
 
-        <EditText
-            android:id="@+id/editText"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/search_fragment_search_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:background="@drawable/rounded_search_bar"
             android:padding="12dp"
             android:layout_marginTop="24dp"
-            android:textStyle="bold"
-            android:hint="Cari" />
+            android:backgroundTint="@color/greyPrimary"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:text="Cari"
+            android:textSize="16sp"
+            android:elevation="0dp"
+            app:icon="@drawable/ic_search"
+            app:iconSize="24dp"
+            app:iconTint="@android:color/darker_gray"
+             />
 
         <TextView
             android:layout_width="wrap_content"
@@ -82,13 +90,13 @@
             android:textColor="@color/black"
             />
 
-        <ListView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/search_results"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="24dp"
-            android:divider="@android:color/transparent"
-            android:dividerHeight="8dp"
+            android:overScrollMode="never"
+
             />
 
     </LinearLayout>

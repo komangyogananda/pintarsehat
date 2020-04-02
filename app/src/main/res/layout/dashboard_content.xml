@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".DashboardActivity"
     tools:showIn="@layout/activity_dashboard"
+    android:orientation="vertical"
     android:padding="8dp"
     android:id="@+id/dashboard_content">
 

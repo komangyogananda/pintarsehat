@@ -1,28 +1,27 @@
 package com.kulguy.pintarsehat
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ListView
-import kotlinx.android.synthetic.main.fragment_search.*
+import android.widget.Button
+import android.widget.EditText
+import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+
 
 /**
  * A simple [Fragment] subclass.
  */
-class SearchFragment : Fragment() {
+class SearchFragment : Fragment {
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        var view: View = inflater.inflate(R.layout.fragment_search, container, false)
+    private val searchList: ArrayList<SearchResult> = ArrayList<SearchResult>()
 
-        var searchList = ArrayList<SearchResult>()
-
+    constructor(){
         var summaryMap: MutableMap<String, String> = mutableMapOf()
 
         summaryMap["calorie"] = "12 kcal"
@@ -35,17 +34,36 @@ class SearchFragment : Fragment() {
         searchList.add(SearchResult("Daging Sapi", "Daging", "100 grams", summaryMap))
         searchList.add(SearchResult("Daging Bakar", "Daging", "100 grams", summaryMap))
 
+    }
 
-        val searchResultListAdapter: SearchResultListAdapter? = activity?.applicationContext?.let {
-            SearchResultListAdapter(
-                it, R.layout.search_result_list_item, searchList)
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        val view = inflater.inflate(R.layout.fragment_search, container, false)
+        val searchButton = view.findViewById<Button>(R.id.search_fragment_search_bar)
+        searchButton.setOnClickListener{
+            val intent = Intent(activity, FullPageSearchActivity::class.java)
+            startActivity(intent)
         }
 
-        val searchResultsView = view.findViewById<ListView>(R.id.search_results)
-
-        searchResultsView.adapter = searchResultListAdapter
-
         return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val searchListView = view.findViewById<RecyclerView>(R.id.search_results)
+        val itemDecorator: DividerItemDecoration = DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
+        activity?.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
+        searchListView.addItemDecoration(itemDecorator)
+        searchListView.apply {
+            layoutManager  = LinearLayoutManager(activity)
+            adapter = SearchResultArrayListAdapter(searchList)
+        }
+
+        Log.w("Lifecycle: onViewCreated Search Fragment", "halo")
     }
 
 }
