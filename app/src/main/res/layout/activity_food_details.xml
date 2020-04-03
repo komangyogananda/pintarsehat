@@ -82,31 +82,8 @@
                 app:justifyContent="center"
                 app:showDivider="middle"
                 app:dividerDrawable="@drawable/divider"
+                android:id="@+id/item_food_details_summary"
                 >
-
-                <include
-                    layout="@layout/item_food_details_summary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                     />
-
-                <include
-                    layout="@layout/item_food_details_summary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-
-                <include
-                    layout="@layout/item_food_details_summary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
-
-                <include
-                    layout="@layout/item_food_details_summary"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    />
 
             </com.google.android.flexbox.FlexboxLayout>
 
@@ -120,7 +97,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/summary_details_title"
+                    android:id="@+id/akg_title"
                     android:text="Angka Kecukupan Gizi"
                     android:layout_gravity="center_horizontal"
                     android:textColor="@android:color/darker_gray"
@@ -129,7 +106,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/summary_details_value"
+                    android:id="@+id/akg_value"
                     android:text="20%"
                     android:textSize="20sp"
                     android:textColor="@color/bluePrimary"
