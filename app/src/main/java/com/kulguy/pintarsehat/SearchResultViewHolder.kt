@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.chip.Chip
 
 class SearchResultViewHolder(inflater: LayoutInflater, parent: ViewGroup) :
-    RecyclerView.ViewHolder(inflater.inflate(R.layout.search_result_list_item, parent, false)) {
+    RecyclerView.ViewHolder(inflater.inflate(R.layout.item_search_result_list, parent, false)) {
     private var title: TextView? = null
     private var category: TextView? = null
     private var calorie: Chip? = null

@@ -25,6 +25,10 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_gravity="center"
+            android:contentInsetLeft="0dp"
+            android:contentInsetStart="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
             android:id="@+id/toolbar_title" />
 
     </androidx.appcompat.widget.Toolbar>

@@ -9,4 +9,8 @@
     <string name="search_selector_compounds">Senyawa</string>
     <string name="search_selector_brand">Brand</string>
     <string name="bullet_divider"> • </string>
+    <string name="details_summary_tile">Ringkasan Gizi</string>
+    <string name="title_nutrition_info">Informasi Gizi</string>
+    <string name="title_other_portion_section">Porsi lainnya</string>
+    <string name="disclaimer_akg">Berdasarkan AKG dari 2000 kalori</string>
 </resources>
