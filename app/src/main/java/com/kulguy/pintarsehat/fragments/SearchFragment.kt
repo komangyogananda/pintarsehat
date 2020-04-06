@@ -1,4 +1,4 @@
-package com.kulguy.pintarsehat
+package com.kulguy.pintarsehat.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,19 +7,25 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.kulguy.pintarsehat.R
+import com.kulguy.pintarsehat.activities.FoodDetailsActivity
+import com.kulguy.pintarsehat.activities.FullPageSearchActivity
+import com.kulguy.pintarsehat.adapters.OnSearchResultListener
+import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
+import com.kulguy.pintarsehat.models.SearchResultModel
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class SearchFragment : Fragment {
+class SearchFragment : Fragment,
+    OnSearchResultListener {
 
-    private val searchList: ArrayList<SearchResult> = ArrayList<SearchResult>()
+    private val searchListModel: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
 
     constructor(){
         var summaryMap: MutableMap<String, String> = mutableMapOf()
@@ -29,10 +35,38 @@ class SearchFragment : Fragment {
         summaryMap["protein"] = "1000g"
         summaryMap["fat"] = "130g"
 
-        searchList.add(SearchResult("Daging Ayam", "Daging", "100 grams", summaryMap))
-        searchList.add(SearchResult("Daging Babi", "Daging", "100 grams", summaryMap))
-        searchList.add(SearchResult("Daging Sapi", "Daging", "100 grams", summaryMap))
-        searchList.add(SearchResult("Daging Bakar", "Daging", "100 grams", summaryMap))
+        searchListModel.add(
+            SearchResultModel(
+                "Daging Ayam",
+                "Daging",
+                "100 grams",
+                summaryMap
+            )
+        )
+        searchListModel.add(
+            SearchResultModel(
+                "Daging Babi",
+                "Daging",
+                "100 grams",
+                summaryMap
+            )
+        )
+        searchListModel.add(
+            SearchResultModel(
+                "Daging Sapi",
+                "Daging",
+                "100 grams",
+                summaryMap
+            )
+        )
+        searchListModel.add(
+            SearchResultModel(
+                "Daging Bakar",
+                "Daging",
+                "100 grams",
+                summaryMap
+            )
+        )
 
     }
 
@@ -60,10 +94,20 @@ class SearchFragment : Fragment {
         searchListView.addItemDecoration(itemDecorator)
         searchListView.apply {
             layoutManager  = LinearLayoutManager(activity)
-            adapter = SearchResultArrayListAdapter(searchList)
+            adapter =
+                SearchResultArrayListAdapter(
+                    searchListModel,
+                    this@SearchFragment
+                )
         }
 
         Log.w("Lifecycle: onViewCreated Search Fragment", "halo")
+    }
+
+    override fun onSearchResultClick(position: Int) {
+        Log.w("Recycle View", "Click " + position)
+        val intent = Intent(activity, FoodDetailsActivity::class.java)
+        startActivity(intent)
     }
 
 }

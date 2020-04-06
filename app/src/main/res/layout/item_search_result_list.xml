@@ -20,6 +20,7 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:clickable="false"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
@@ -27,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Daging • 1 Mangkok"
+            android:clickable="false"
             android:textAllCaps="true"
             android:textColor="@android:color/darker_gray"
             android:textSize="12sp" />
@@ -37,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
             android:text="Daging Ayam"
+            android:clickable="false"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -50,6 +53,7 @@
             app:flexWrap="wrap"
             app:showDividerHorizontal="middle"
             app:dividerDrawableHorizontal="@drawable/divider"
+            android:clickable="false"
             >
 
             <com.google.android.material.chip.Chip
@@ -59,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:text="Kal: 1000kcal"
                 android:textSize="12sp"
+                android:clickable="false"
                 android:theme="@style/Theme.MaterialComponents.Light" />
 
             <com.google.android.material.chip.Chip
@@ -70,6 +75,7 @@
                 android:text="Karbo: 1000g"
                 android:textColor="@color/bluePrimary"
                 android:textSize="12sp"
+                android:clickable="false"
                 android:theme="@style/Theme.MaterialComponents.Light" />
 
             <com.google.android.material.chip.Chip
@@ -81,6 +87,7 @@
                 android:text="Protein: 1000g"
                 android:textColor="@color/bluePrimary"
                 android:textSize="12sp"
+                android:clickable="false"
                 android:theme="@style/Theme.MaterialComponents.Light" />
 
             <com.google.android.material.chip.Chip
@@ -92,6 +99,7 @@
                 android:text="Lemak: 1000g"
                 android:textColor="@color/bluePrimary"
                 android:textSize="12sp"
+                android:clickable="false"
                 android:theme="@style/Theme.MaterialComponents.Light" />
 
         </com.google.android.flexbox.FlexboxLayout>
@@ -103,6 +111,7 @@
         android:layout_height="match_parent"
         android:backgroundTint="@color/white"
         android:src="@drawable/ic_keyboard_arrow_right"
+        android:clickable="false"
         />
 
 

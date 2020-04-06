@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <com.google.android.flexbox.FlexboxLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:alignContent="space_between"
         app:justifyContent="space_between"
         >
 
@@ -18,12 +17,15 @@
             android:text="Energi"
             android:textColor="@color/black"
             android:textSize="16sp"
+            android:id="@+id/title_nutrition_info"
             android:textStyle="bold"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="100 kcal"
+            android:id="@+id/value_nutrition_info"
+            android:textStyle="bold"
             android:textColor="@color/bluePrimary"
             />
 
@@ -32,8 +34,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/horizontal_margin"
-        android:layout_marginTop="8dp"
+        android:layout_marginLeft="24dp"
         android:id="@+id/food_nutrition_sub_details">
 
     </androidx.recyclerview.widget.RecyclerView>

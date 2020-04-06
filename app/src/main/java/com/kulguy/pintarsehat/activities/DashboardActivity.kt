@@ -1,12 +1,10 @@
-package com.kulguy.pintarsehat
+package com.kulguy.pintarsehat.activities
 
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.view.WindowManager
-import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -14,18 +12,24 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
+import com.kulguy.pintarsehat.*
+import com.kulguy.pintarsehat.fragments.DailyNutritionFragment
+import com.kulguy.pintarsehat.fragments.PhotoFragment
+import com.kulguy.pintarsehat.fragments.SearchFragment
 import kotlinx.android.synthetic.main.activity_dashboard.*
 import kotlinx.android.synthetic.main.dashboard_content.*
-import kotlinx.android.synthetic.main.fragment_search.*
 
 class DashboardActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
     private val fragmentManager: FragmentManager = supportFragmentManager
-    private val fragment1: Fragment = SearchFragment()
-    private val fragment2: Fragment = PhotoFragment()
-    private val fragment3: Fragment = DailyNutritionFragment()
+    private val fragment1: Fragment =
+        SearchFragment()
+    private val fragment2: Fragment =
+        PhotoFragment()
+    private val fragment3: Fragment =
+        DailyNutritionFragment()
     private var activeFragment: Fragment = fragment1
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -81,7 +85,11 @@ class DashboardActivity : AppCompatActivity() {
 
         // Google sign out
         googleSignInClient.signOut().addOnCompleteListener(this) {
-            startActivity(MainActivity.getLaunchIntent(this))
+            startActivity(
+                MainActivity.getLaunchIntent(
+                    this
+                )
+            )
         }
     }
 

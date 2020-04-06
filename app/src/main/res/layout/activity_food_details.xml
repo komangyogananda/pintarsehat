@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".FoodDetailsActivity">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    tools:context=".activities.FoodDetailsActivity">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -27,6 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:padding="12dp"
                 >
 
                 <TextView
@@ -53,137 +50,156 @@
 
         </androidx.appcompat.widget.Toolbar>
 
-        <LinearLayout
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/food_summary_details"
-            android:layout_below="@+id/toolbar">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:layout_marginTop="@dimen/vertical_section_margin"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:text="@string/details_summary_tile">
-
-            </TextView>
-
-            <com.google.android.flexbox.FlexboxLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="@dimen/horizontal_margin"
-                android:layout_marginTop="@dimen/vertical_sub_section_margin"
-                app:flexWrap="wrap"
-                app:alignItems="center"
-                app:justifyContent="center"
-                app:showDivider="middle"
-                app:dividerDrawable="@drawable/divider"
-                android:id="@+id/item_food_details_summary"
-                >
-
-            </com.google.android.flexbox.FlexboxLayout>
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="24dp"
-                android:layout_gravity="center_horizontal"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/akg_title"
-                    android:text="Angka Kecukupan Gizi"
-                    android:layout_gravity="center_horizontal"
-                    android:textColor="@android:color/darker_gray"
-                    android:textAllCaps="true"/>
+                    android:orientation="vertical"
+                    android:id="@+id/food_summary_details"
+                    android:layout_below="@+id/toolbar">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/akg_value"
-                    android:text="20%"
-                    android:textSize="20sp"
-                    android:textColor="@color/bluePrimary"
-                    android:layout_gravity="center_horizontal"
-                    />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/vertical_section_margin"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:text="@string/details_summary_tile">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    </TextView>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="@dimen/horizontal_margin"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        app:flexWrap="wrap"
+                        app:alignItems="stretch"
+                        app:justifyContent="flex_start"
+                        android:layout_gravity="center_horizontal"
+                        app:showDivider="middle"
+                        app:dividerDrawable="@drawable/divider"
+                        android:id="@+id/item_food_details_summary"
+                        >
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="24dp"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/akg_title"
+                            android:text="Angka Kecukupan Gizi"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/darker_gray"
+                            android:textAllCaps="true"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/akg_value"
+                            android:text="20%"
+                            android:textSize="20sp"
+                            android:textColor="@color/bluePrimary"
+                            android:layout_gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp"
+                            android:text="@string/disclaimer_akg"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@android:color/darker_gray"
-                    android:textSize="10sp"
-                    android:text="@string/disclaimer_akg"/>
+                    android:paddingHorizontal="@dimen/horizontal_margin"
+                    android:layout_below="@id/food_summary_details"
+                    android:id="@+id/food_nutrition_details"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/vertical_section_margin"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:text="@string/title_nutrition_info"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        android:id="@+id/food_nutrition_details_recycler_view"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="@dimen/horizontal_margin"
+                    android:layout_below="@id/food_nutrition_details"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_marginTop="@dimen/vertical_section_margin"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="18sp"
+                        android:text="@string/title_other_portion_section"/>
+
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:id="@+id/portions_button_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        android:layout_marginBottom="24dp"
+                        app:selectionRequired="true"
+                        app:singleSelection="true"
+                        >
+
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="@dimen/horizontal_margin"
-            android:layout_below="@id/food_summary_details"
-            android:id="@+id/food_nutrition_details"
-            android:orientation="vertical"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:layout_marginTop="@dimen/vertical_section_margin"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:text="@string/title_nutrition_info"/>
-
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_sub_section_margin"
-                android:id="@+id/food_nutrition_details_recycler_view"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="@dimen/horizontal_margin"
-            android:layout_below="@id/food_nutrition_details"
-            android:orientation="vertical"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:layout_marginTop="@dimen/vertical_section_margin"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textAllCaps="true"
-                android:text="@string/title_other_portion_section"/>
-
-            <com.google.android.material.button.MaterialButtonToggleGroup
-                android:id="@+id/search_selector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="24dp"
-                app:selectionRequired="true"
-                app:singleSelection="true"
-                >
-
-            </com.google.android.material.button.MaterialButtonToggleGroup>
-
-        </LinearLayout>
-
-    </RelativeLayout>
-
-</androidx.core.widget.NestedScrollView>
+</RelativeLayout>
