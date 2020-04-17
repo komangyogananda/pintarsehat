@@ -41,10 +41,10 @@ class SearchResultViewHolder :
         category?.text = searchResultModel.category + " " + itemView.context.resources.getString(
             R.string.bullet_divider
         ) + " " + searchResultModel.defaultPortion
-        calorie?.text = "Kal: " + searchResultModel.summary["calorie"]
-        carbo?.text = "Karbo: " + searchResultModel.summary["carbo"]
-        fat?.text = "Lemak: " + searchResultModel.summary["fat"]
-        protein?.text = "Protein: " + searchResultModel.summary["protein"]
+        calorie?.text = "Kal: " + searchResultModel.summary["Kalori"]
+        carbo?.text = "Karbo: " + searchResultModel.summary["Karbohidrat"]
+        fat?.text = "Lemak: " + searchResultModel.summary["Lemak"]
+        protein?.text = "Protein: " + searchResultModel.summary["Protein"]
     }
 
     override fun onClick(v: View?) {

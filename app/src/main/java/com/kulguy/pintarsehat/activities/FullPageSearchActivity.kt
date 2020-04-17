@@ -3,6 +3,7 @@ package com.kulguy.pintarsehat.activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.view.WindowManager
 import android.widget.SearchView
 import androidx.lifecycle.LiveData
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.kulguy.pintarsehat.R
 import com.kulguy.pintarsehat.adapters.OnSearchResultListener
 import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
+import com.kulguy.pintarsehat.dialog.LoadingDialog
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.SearchViewModel
 import kotlinx.android.synthetic.main.activity_full_page_search.*
@@ -21,17 +23,16 @@ class FullPageSearchActivity : AppCompatActivity(),
     OnSearchResultListener {
 
     private var searchListModel: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
+    private var loadingDialog: LoadingDialog = LoadingDialog(this)
+    private var querySearchIsChanged: Boolean = false
+    private var firstTime: Boolean = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        window.setFlags(
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
         setSupportActionBar(search_toolbar)
 
         setContentView(R.layout.activity_full_page_search)
-
-        initDummyData()
         updateUI()
         val itemDecorator: DividerItemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         this.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
@@ -43,23 +44,18 @@ class FullPageSearchActivity : AppCompatActivity(),
     private fun initSearchToolbar(){
         search_toolbar_full_page_activity.requestFocus()
         search_toolbar_full_page_activity.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
-            override fun onQueryTextSubmit(query: String?): Boolean {
-                val searchViewModel = ViewModelProviders.of(this@FullPageSearchActivity).get(SearchViewModel::class.java)
-                val searchResults = searchViewModel.getSearch(query)
-                Log.w(this.toString(), query)
-                searchResults?.observe(this@FullPageSearchActivity, object: Observer<ArrayList<SearchResultModel>> {
-                    override fun onChanged(t: ArrayList<SearchResultModel>?) {
-                        if (t != null) {
-                            searchListModel = t
-                            updateUI()
-                        }
-                    }
-
-                })
+            override fun onQueryTextSubmit(queryString: String?): Boolean {
+                search_toolbar_full_page_activity.clearFocus();
+                if (queryString != null && querySearchIsChanged){
+                    loadingDialog.showDialog()
+                    firstTime = false
+                    query(queryString)
+                }
                 return true
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
+                querySearchIsChanged = true
                 return true
             }
 
@@ -67,122 +63,52 @@ class FullPageSearchActivity : AppCompatActivity(),
     }
 
     private fun updateUI(){
-        full_page_search_results.layoutManager = LinearLayoutManager(this)
-        full_page_search_results.adapter =
-            SearchResultArrayListAdapter(
-                searchListModel,
-                this
-            )
+        if (firstTime){
+            search_empty.visibility = View.INVISIBLE
+            search_results_counter.text = "Top Foods"
+            full_page_search_results.adapter =
+                SearchResultArrayListAdapter(
+                    searchListModel,
+                    this
+                )
+        }else{
+            if (searchListModel.size == 0){
+                search_empty.visibility = View.VISIBLE
+                search_results_counter.visibility = View.INVISIBLE
+                full_page_search_results.visibility = View.INVISIBLE
+            }else{
+                search_results_counter.visibility = View.VISIBLE
+                full_page_search_results.visibility = View.VISIBLE
+                search_empty.visibility = View.INVISIBLE
+                full_page_search_results.layoutManager = LinearLayoutManager(this)
+                search_results_counter.text = searchListModel.size.toString() + " search results: "
+                full_page_search_results.adapter =
+                    SearchResultArrayListAdapter(
+                        searchListModel,
+                        this
+                    )
+            }
+        }
     }
 
-    private fun query(query_string: String){
-
-    }
-
-    private fun initDummyData(){
-        var summaryMap: MutableMap<String, String> = mutableMapOf()
-
-        summaryMap["calorie"] = "12 kcal"
-        summaryMap["carbo"] = "100g"
-        summaryMap["protein"] = "1000g"
-        summaryMap["fat"] = "130g"
-
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Ayam",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Babi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Sapi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Bakar",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Ayam",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Babi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Sapi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Bakar",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Ayam",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Babi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Sapi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Bakar",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
+    private fun query(queryString: String){
+        Log.w("Dialog", queryString)
+        val searchViewModel = ViewModelProviders.of(this@FullPageSearchActivity).get(SearchViewModel::class.java)
+        val searchResults = searchViewModel.getSearch(queryString, {
+            loadingDialog.showDialog()
+            true
+        }, {
+            loadingDialog.dismissDialog()
+            true
+        })
+        Log.w(this.toString(), queryString)
+        searchResults?.observe(this@FullPageSearchActivity,
+            Observer<ArrayList<SearchResultModel>> { t ->
+                if (t != null) {
+                    searchListModel = t
+                    updateUI()
+                }
+            })
     }
 
     override fun onSearchResultClick(position: Int) {

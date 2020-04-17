@@ -19,24 +19,20 @@ class SearchViewModel : ViewModel() {
 
     var searchResults: MutableLiveData<ArrayList<SearchResultModel>>? = null
     val db = FirebaseFirestore.getInstance()
-    var client: Client = Client(, )
+    var client: Client = Client("X85VLA89ED", "73ca9ac8f2e185b84a5bcede09e5e8eb")
     var index: Index = client.getIndex("production_foods_search")
-    var last_query: String? = ""
 
-    public fun getSearch(query_string: String?): MutableLiveData<ArrayList<SearchResultModel>>? {
+    fun getSearch(query_string: String?, onStartSearch: () -> Boolean = { true }, onFinishedSearch: () -> Boolean = { true }): MutableLiveData<ArrayList<SearchResultModel>>? {
         if (searchResults == null){
             searchResults = MutableLiveData()
         }
-        if (last_query != query_string){
-            last_query = query_string
-            fetchSearch(query_string)
-        }
+        fetchSearch(query_string, onStartSearch, onFinishedSearch)
         return searchResults
     }
 
-    fun fetchSearch(query_string: String?){
+    private fun fetchSearch(query_string: String?, onStartSearch: () -> Boolean = { true }, onFinishedSearch: () -> Boolean = { true }){
         val query = Query(query_string)
-        Log.w("Fetch", "init")
+        onStartSearch()
         index.searchAsync(query, CompletionHandler { jsonObject, algoliaException ->
             if (jsonObject != null) {
                 Log.w("Fetch", jsonObject.getString("hits"))
@@ -45,6 +41,7 @@ class SearchViewModel : ViewModel() {
             }
 //            searchResults?.value = searchResultsParsed
             Log.w("Fetch", algoliaException.toString())
+            onFinishedSearch()
         })
     }
 

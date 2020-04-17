@@ -2,14 +2,10 @@ package com.kulguy.pintarsehat.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
-import android.view.WindowManager
 import android.widget.TextView
-import androidx.appcompat.view.ContextThemeWrapper
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.flexbox.FlexboxLayout
@@ -23,12 +19,11 @@ import com.kulguy.pintarsehat.models.SubNutrientModel
 import kotlinx.android.synthetic.main.activity_food_details.*
 import kotlinx.android.synthetic.main.activity_food_details.toolbar
 import kotlinx.android.synthetic.main.activity_food_details.toolbar_title
-import kotlinx.android.synthetic.main.activity_food_details.view.*
 
 class FoodDetailsActivity : AppCompatActivity() {
 
     var foodModel: FoodModel? = null
-    var active_portion: String? = null
+    private var activePortion: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -99,7 +94,7 @@ class FoodDetailsActivity : AppCompatActivity() {
             "1 gram",
             listOfPortion
         )
-        active_portion = foodModel!!.default_portion
+        activePortion = foodModel!!.default_portion
     }
 
     private fun updateUI(foodModel: FoodModel?){
@@ -153,7 +148,7 @@ class FoodDetailsActivity : AppCompatActivity() {
             portionButton.setTextColor(this.resources.getColor(R.color.bluePrimary))
             portionButton.layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
             if (portion != null) {
-                if (portion.title == active_portion){
+                if (portion.title == activePortion){
                     Log.w("anjay", portion.title)
                     selectedIndex = portionButton
                 }
