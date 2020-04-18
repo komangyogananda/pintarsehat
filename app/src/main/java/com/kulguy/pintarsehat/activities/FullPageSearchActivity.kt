@@ -4,9 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.view.WindowManager
 import android.widget.SearchView
-import androidx.lifecycle.LiveData
+import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -14,7 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.kulguy.pintarsehat.R
 import com.kulguy.pintarsehat.adapters.OnSearchResultListener
 import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
-import com.kulguy.pintarsehat.dialog.LoadingDialog
+import com.kulguy.pintarsehat.dialog.Dialog
+import com.kulguy.pintarsehat.fragments.LoadingDialogFragment
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.SearchViewModel
 import kotlinx.android.synthetic.main.activity_full_page_search.*
@@ -23,9 +23,9 @@ class FullPageSearchActivity : AppCompatActivity(),
     OnSearchResultListener {
 
     private var searchListModel: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
-    private var loadingDialog: LoadingDialog = LoadingDialog(this)
     private var querySearchIsChanged: Boolean = false
     private var firstTime: Boolean = true
+    private val loadingDialog: LoadingDialogFragment = LoadingDialogFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,13 +41,35 @@ class FullPageSearchActivity : AppCompatActivity(),
         initSearchToolbar()
     }
 
+    private fun showLoadingDialog(){
+        Log.w("Dialog", "FragmentInit")
+        var fragmentManager: FragmentManager = supportFragmentManager
+        var fragmentTransaction = fragmentManager.beginTransaction()
+        val prev = fragmentManager.findFragmentByTag("dialog")
+        if (prev != null){
+            fragmentTransaction.remove(prev)
+        }
+        fragmentTransaction.addToBackStack(null)
+        loadingDialog.show(fragmentTransaction, "dialog")
+    }
+
+    private fun dismissLoadingDialog(){
+        loadingDialog.dismiss()
+        var fragmentManager: FragmentManager = supportFragmentManager
+        var fragmentTransaction = fragmentManager.beginTransaction()
+        val prev = fragmentManager.findFragmentByTag("dialog")
+        if (prev != null){
+            fragmentTransaction.remove(prev)
+        }
+        Log.w("Dialog", "Dismissed")
+    }
+
     private fun initSearchToolbar(){
         search_toolbar_full_page_activity.requestFocus()
         search_toolbar_full_page_activity.setOnQueryTextListener(object : SearchView.OnQueryTextListener{
             override fun onQueryTextSubmit(queryString: String?): Boolean {
                 search_toolbar_full_page_activity.clearFocus();
                 if (queryString != null && querySearchIsChanged){
-                    loadingDialog.showDialog()
                     firstTime = false
                     query(queryString)
                 }
@@ -95,10 +117,10 @@ class FullPageSearchActivity : AppCompatActivity(),
         Log.w("Dialog", queryString)
         val searchViewModel = ViewModelProviders.of(this@FullPageSearchActivity).get(SearchViewModel::class.java)
         val searchResults = searchViewModel.getSearch(queryString, {
-            loadingDialog.showDialog()
+            showLoadingDialog()
             true
         }, {
-            loadingDialog.dismissDialog()
+            dismissLoadingDialog()
             true
         })
         Log.w(this.toString(), queryString)

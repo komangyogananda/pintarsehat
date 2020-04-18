@@ -13,4 +13,6 @@
     <string name="title_nutrition_info">Informasi Gizi</string>
     <string name="title_other_portion_section">Porsi lainnya</string>
     <string name="disclaimer_akg">Berdasarkan AKG dari 2000 kalori</string>
+    <string name="title_photo_fragment">Ketahui nutrisi makananmu!</string>
+    <string name="description_photo_fragment">Ambil foto dan biarkan aplikasi kami menyediakan informasi nutrisi untuk anda!</string>
 </resources>

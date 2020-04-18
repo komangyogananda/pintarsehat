@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="36dp"
     android:orientation="vertical"
-    android:background="@drawable/rounded_dialog"
+    android:background="@drawable/rounded_dialog_full_section"
     >
 
     <ProgressBar
