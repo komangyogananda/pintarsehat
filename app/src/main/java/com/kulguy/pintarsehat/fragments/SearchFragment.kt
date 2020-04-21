@@ -8,6 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -17,58 +20,17 @@ import com.kulguy.pintarsehat.activities.FullPageSearchActivity
 import com.kulguy.pintarsehat.adapters.OnSearchResultListener
 import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
 import com.kulguy.pintarsehat.models.SearchResultModel
+import com.kulguy.pintarsehat.viewmodel.TopSearchViewModel
 
 
 /**
  * A simple [Fragment] subclass.
  */
-class SearchFragment : Fragment,
+class SearchFragment : Fragment(),
     OnSearchResultListener {
 
-    private val searchListModel: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
-
-    constructor(){
-        var summaryMap: MutableMap<String, String> = mutableMapOf()
-
-        summaryMap["calorie"] = "12 kcal"
-        summaryMap["carbo"] = "100g"
-        summaryMap["protein"] = "1000g"
-        summaryMap["fat"] = "130g"
-
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Ayam",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Babi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Sapi",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-        searchListModel.add(
-            SearchResultModel(
-                "Daging Bakar",
-                "Daging",
-                "100 grams",
-                summaryMap
-            )
-        )
-
-    }
+    private var topSearch: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
+    private val loadingDialog: LoadingDialogFragment = LoadingDialogFragment()
 
 
     override fun onCreateView(
@@ -86,22 +48,67 @@ class SearchFragment : Fragment,
         return view
     }
 
+    private fun showLoadingDialog(){
+        Log.w("Dialog", "FragmentInit")
+        activity?.let {
+            var fragmentManager: FragmentManager = it.supportFragmentManager
+            var fragmentTransaction = fragmentManager.beginTransaction()
+            val prev = fragmentManager.findFragmentByTag("dialog")
+            if (prev != null){
+                fragmentTransaction.remove(prev)
+            }
+            fragmentTransaction.addToBackStack(null)
+        loadingDialog.show(fragmentTransaction, "dialog")
+        }
+    }
+
+    private fun dismissLoadingDialog(){
+        loadingDialog.dismiss()
+        activity?.let {
+            var fragmentManager: FragmentManager = it.supportFragmentManager
+            var fragmentTransaction = fragmentManager.beginTransaction()
+            val prev = fragmentManager.findFragmentByTag("dialog")
+            if (prev != null){
+                fragmentTransaction.remove(prev)
+            }
+        }
+        Log.w("Dialog", "Dismissed")
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val searchListView = view.findViewById<RecyclerView>(R.id.search_results)
-        val itemDecorator: DividerItemDecoration = DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
+        val itemDecorator = DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
         activity?.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
         searchListView.addItemDecoration(itemDecorator)
-        searchListView.apply {
+        val topSearchViewModel = ViewModelProviders.of(this).get(TopSearchViewModel::class.java)
+        val topSearchResult = topSearchViewModel.getTopSearches({
+//            showLoadingDialog()
+            true
+        }, {
+//            dismissLoadingDialog()
+            true
+        })
+        topSearchResult?.observe(this, Observer<ArrayList<SearchResultModel>>{
+            topSearch = it
+            updateUI()
+        })
+
+
+
+
+    }
+
+    private fun updateUI(){
+        val searchListView = view?.findViewById<RecyclerView>(R.id.search_results)
+        searchListView?.apply {
             layoutManager  = LinearLayoutManager(activity)
             adapter =
                 SearchResultArrayListAdapter(
-                    searchListModel,
+                    topSearch,
                     this@SearchFragment
                 )
         }
-
-        Log.w("Lifecycle: onViewCreated Search Fragment", "halo")
     }
 
     override fun onSearchResultClick(position: Int) {

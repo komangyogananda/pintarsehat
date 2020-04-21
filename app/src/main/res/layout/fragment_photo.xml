@@ -6,30 +6,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.PhotoFragment">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <ImageView
-            android:layout_width="320dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_camera_illustration"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:layout_centerInParent="true"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:paddingHorizontal="@dimen/horizontal_margin"
             android:layout_alignParentTop="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="1">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -48,16 +36,37 @@
 
         </LinearLayout>
 
-        <com.google.android.material.button.MaterialButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buka kamera"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="@dimen/vertical_section_margin"
-            android:background="@drawable/rounded_button"
-            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_camera_illustration"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_marginHorizontal="@dimen/horizontal_margin"
+            android:id="@+id/photo_fragment_illustration"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/vertical_sub_section_margin"
+            android:layout_weight="8"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/vertical_sub_section_margin">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buka kamera"
+                android:layout_marginBottom="@dimen/vertical_sub_section_margin"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/button_open_camera"
+                android:layout_weight="1"
             />
 
-    </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>

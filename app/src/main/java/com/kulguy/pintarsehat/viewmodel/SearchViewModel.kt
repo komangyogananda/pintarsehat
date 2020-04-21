@@ -11,10 +11,6 @@ import com.beust.klaxon.Klaxon
 import com.google.firebase.firestore.FirebaseFirestore
 import com.kulguy.pintarsehat.models.SearchResultModel
 
-class Hints {
-
-}
-
 class SearchViewModel : ViewModel() {
 
     var searchResults: MutableLiveData<ArrayList<SearchResultModel>>? = null

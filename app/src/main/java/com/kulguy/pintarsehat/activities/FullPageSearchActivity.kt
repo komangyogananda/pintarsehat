@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.kulguy.pintarsehat.R
 import com.kulguy.pintarsehat.adapters.OnSearchResultListener
 import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
-import com.kulguy.pintarsehat.dialog.Dialog
 import com.kulguy.pintarsehat.fragments.LoadingDialogFragment
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.SearchViewModel
@@ -34,7 +33,7 @@ class FullPageSearchActivity : AppCompatActivity(),
 
         setContentView(R.layout.activity_full_page_search)
         updateUI()
-        val itemDecorator: DividerItemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+        val itemDecorator = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         this.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
         full_page_search_results.addItemDecoration(itemDecorator)
 
