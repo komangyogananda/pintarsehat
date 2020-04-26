@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingHorizontal="12dp"
-    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="12dp"
     android:id="@+id/layout_search_result"
-    android:background="@drawable/rounded_search_result"
-    app:justifyContent="space_between"
+    android:background="@drawable/rounded_white_frame"
     android:clickable="true"
-    app:flexDirection="row"
-    app:alignItems="center"
     android:focusable="true">
 
     <LinearLayout
@@ -41,78 +38,18 @@
             android:text="Daging Ayam"
             android:clickable="false"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
-        <com.google.android.flexbox.FlexboxLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:alignContent="flex_start"
-            app:alignItems="flex_start"
-            app:flexDirection="row"
-            app:flexWrap="wrap"
-            app:showDividerHorizontal="middle"
-            app:dividerDrawableHorizontal="@drawable/divider"
-            android:clickable="false"
-            >
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_calorie"
-                style="@style/chips"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Kal: 1000kcal"
-                android:textSize="12sp"
-                android:clickable="false"
-                android:theme="@style/Theme.MaterialComponents.Light" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_carbo"
-                style="@style/chips"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/bluePrimary10"
-                android:text="Karbo: 1000g"
-                android:textColor="@color/bluePrimary"
-                android:textSize="12sp"
-                android:clickable="false"
-                android:theme="@style/Theme.MaterialComponents.Light" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_protein"
-                style="@style/chips"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/bluePrimary10"
-                android:text="Protein: 1000g"
-                android:textColor="@color/bluePrimary"
-                android:textSize="12sp"
-                android:clickable="false"
-                android:theme="@style/Theme.MaterialComponents.Light" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip_fat"
-                style="@style/chips"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/bluePrimary10"
-                android:text="Lemak: 1000g"
-                android:textColor="@color/bluePrimary"
-                android:textSize="12sp"
-                android:clickable="false"
-                android:theme="@style/Theme.MaterialComponents.Light" />
-
-        </com.google.android.flexbox.FlexboxLayout>
+            android:textSize="14sp"
+            android:id="@+id/food_summary_subtitle"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/bluePrimary"
+            android:text="Karbohidrat 100g, Lemak 100g, Kalori 100 kcal, Protein 100g"/>
 
     </LinearLayout>
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/white"
-        android:src="@drawable/ic_keyboard_arrow_right"
-        android:clickable="false"
-        />
-
-
-</com.google.android.flexbox.FlexboxLayout>
+</RelativeLayout>

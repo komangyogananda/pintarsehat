@@ -1,11 +1,11 @@
 package com.kulguy.pintarsehat.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.SearchView
-import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -16,15 +16,17 @@ import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
 import com.kulguy.pintarsehat.fragments.LoadingDialogFragment
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.SearchViewModel
+import com.kulguy.pintarsehat.viewmodel.TopSearchViewModel
 import kotlinx.android.synthetic.main.activity_full_page_search.*
+import kotlinx.android.synthetic.main.fragment_search.*
+import kotlinx.android.synthetic.main.loading_search_result_shimmer.*
 
 class FullPageSearchActivity : AppCompatActivity(),
     OnSearchResultListener {
 
-    private var searchListModel: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
+    private var searchListModel: ArrayList<SearchResultModel> = ArrayList()
     private var querySearchIsChanged: Boolean = false
     private var firstTime: Boolean = true
-    private val loadingDialog: LoadingDialogFragment = LoadingDialogFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,35 +34,38 @@ class FullPageSearchActivity : AppCompatActivity(),
         setSupportActionBar(search_toolbar)
 
         setContentView(R.layout.activity_full_page_search)
-        updateUI()
         val itemDecorator = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         this.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
         full_page_search_results.addItemDecoration(itemDecorator)
+//        val bundle = intent.getBundleExtra("topSearch")
+//        topSearch = bundle.getSerializable("data") as ArrayList<SearchResultModel>
+//        searchListModel = topSearch
+        search_results_loading_shimmer.visibility = View.GONE
+        full_page_search_results.visibility = View.GONE
+        search_empty.visibility = View.GONE
+        search_results_counter.visibility = View.GONE
 
+        getTopSearch()
         initSearchToolbar()
     }
 
-    private fun showLoadingDialog(){
-        Log.w("Dialog", "FragmentInit")
-        var fragmentManager: FragmentManager = supportFragmentManager
-        var fragmentTransaction = fragmentManager.beginTransaction()
-        val prev = fragmentManager.findFragmentByTag("dialog")
-        if (prev != null){
-            fragmentTransaction.remove(prev)
-        }
-        fragmentTransaction.addToBackStack(null)
-        loadingDialog.show(fragmentTransaction, "dialog")
+    private fun showLoading(){
+        search_results_loading_shimmer.visibility = View.VISIBLE
     }
 
-    private fun dismissLoadingDialog(){
-        loadingDialog.dismiss()
-        var fragmentManager: FragmentManager = supportFragmentManager
-        var fragmentTransaction = fragmentManager.beginTransaction()
-        val prev = fragmentManager.findFragmentByTag("dialog")
-        if (prev != null){
-            fragmentTransaction.remove(prev)
-        }
-        Log.w("Dialog", "Dismissed")
+    private fun dismissLoading(){
+        search_results_loading_shimmer.visibility = View.GONE
+    }
+
+    private fun getTopSearch(){
+        val topSearchViewModel = ViewModelProviders.of(this).get(TopSearchViewModel::class.java)
+        val topSearchResult = topSearchViewModel.getTopSearches()
+        showLoading()
+        topSearchResult?.observe(this, Observer<ArrayList<SearchResultModel>>{
+            searchListModel = it
+            updateUI()
+            dismissLoading()
+        })
     }
 
     private fun initSearchToolbar(){
@@ -70,6 +75,7 @@ class FullPageSearchActivity : AppCompatActivity(),
                 search_toolbar_full_page_activity.clearFocus();
                 if (queryString != null && querySearchIsChanged){
                     firstTime = false
+                    showLoading()
                     query(queryString)
                 }
                 return true
@@ -85,29 +91,34 @@ class FullPageSearchActivity : AppCompatActivity(),
 
     private fun updateUI(){
         if (firstTime){
-            search_empty.visibility = View.INVISIBLE
+            search_empty.visibility = View.GONE
+            full_page_search_results.visibility = View.VISIBLE
+            search_results_counter.visibility = View.VISIBLE
             search_results_counter.text = "Top Foods"
             full_page_search_results.adapter =
                 SearchResultArrayListAdapter(
                     searchListModel,
                     this
                 )
+            full_page_search_results.layoutManager = LinearLayoutManager(this)
         }else{
             if (searchListModel.size == 0){
                 search_empty.visibility = View.VISIBLE
-                search_results_counter.visibility = View.INVISIBLE
-                full_page_search_results.visibility = View.INVISIBLE
+                search_results_counter.visibility = View.GONE
+                full_page_search_results.visibility = View.GONE
+                search_results_loading_shimmer.visibility = View.GONE
             }else{
                 search_results_counter.visibility = View.VISIBLE
                 full_page_search_results.visibility = View.VISIBLE
-                search_empty.visibility = View.INVISIBLE
-                full_page_search_results.layoutManager = LinearLayoutManager(this)
+                search_empty.visibility = View.GONE
+                search_results_loading_shimmer.visibility = View.GONE
                 search_results_counter.text = searchListModel.size.toString() + " search results: "
                 full_page_search_results.adapter =
                     SearchResultArrayListAdapter(
                         searchListModel,
                         this
                     )
+                full_page_search_results.layoutManager = LinearLayoutManager(this)
             }
         }
     }
@@ -115,24 +126,23 @@ class FullPageSearchActivity : AppCompatActivity(),
     private fun query(queryString: String){
         Log.w("Dialog", queryString)
         val searchViewModel = ViewModelProviders.of(this@FullPageSearchActivity).get(SearchViewModel::class.java)
-        val searchResults = searchViewModel.getSearch(queryString, {
-            showLoadingDialog()
-            true
-        }, {
-            dismissLoadingDialog()
-            true
-        })
+        val searchResults = searchViewModel.getSearch(queryString)
         Log.w(this.toString(), queryString)
         searchResults?.observe(this@FullPageSearchActivity,
             Observer<ArrayList<SearchResultModel>> { t ->
                 if (t != null) {
                     searchListModel = t
                     updateUI()
+//                    dismissLoading()
                 }
             })
     }
 
     override fun onSearchResultClick(position: Int) {
-        Log.w("Recycle View", "Click" + position)
+        Log.w("Recycle View", "Click " + position)
+        val intent = Intent(this, FoodDetailsActivity::class.java)
+        intent.putExtra("refId", searchListModel[position].refId)
+        intent.putExtra("activePortion", searchListModel[position].defaultPortion)
+        startActivity(intent)
     }
 }

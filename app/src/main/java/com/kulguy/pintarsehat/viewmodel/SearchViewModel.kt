@@ -10,6 +10,7 @@ import com.algolia.search.saas.Query
 import com.beust.klaxon.Klaxon
 import com.google.firebase.firestore.FirebaseFirestore
 import com.kulguy.pintarsehat.models.SearchResultModel
+import java.io.Serializable
 
 class SearchViewModel : ViewModel() {
 
@@ -18,26 +19,23 @@ class SearchViewModel : ViewModel() {
     var client: Client = Client("X85VLA89ED", "73ca9ac8f2e185b84a5bcede09e5e8eb")
     var index: Index = client.getIndex("production_foods_search")
 
-    fun getSearch(query_string: String?, onStartSearch: () -> Boolean = { true }, onFinishedSearch: () -> Boolean = { true }): MutableLiveData<ArrayList<SearchResultModel>>? {
+    fun getSearch(query_string: String?): MutableLiveData<ArrayList<SearchResultModel>>? {
         if (searchResults == null){
             searchResults = MutableLiveData()
         }
-        fetchSearch(query_string, onStartSearch, onFinishedSearch)
+        fetchSearch(query_string)
         return searchResults
     }
 
-    private fun fetchSearch(query_string: String?, onStartSearch: () -> Boolean = { true }, onFinishedSearch: () -> Boolean = { true }){
+    private fun fetchSearch(query_string: String?){
         val query = Query(query_string)
-        onStartSearch()
         index.searchAsync(query, CompletionHandler { jsonObject, algoliaException ->
             if (jsonObject != null) {
                 Log.w("Fetch", jsonObject.getString("hits"))
                 val searchResultsParsed = Klaxon().parseArray<SearchResultModel>(jsonObject.getString("hits")) as ArrayList<SearchResultModel>
                 searchResults?.value = searchResultsParsed
             }
-//            searchResults?.value = searchResultsParsed
             Log.w("Fetch", algoliaException.toString())
-            onFinishedSearch()
         })
     }
 

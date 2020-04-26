@@ -11,92 +11,60 @@
         android:id="@+id/search_linear_layout_parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="36dp"
+        android:layout_marginVertical="12dp"
         android:clipToPadding="false"
         android:focusableInTouchMode="true"
-        android:layout_marginVertical="12dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
             android:text="@string/search_fragment_title"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:justificationMode="inter_word"
+            android:layout_marginHorizontal="36dp"
             android:textStyle="bold" />
 
-        <com.google.android.material.button.MaterialButtonToggleGroup
-            android:id="@+id/search_selector"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"
-            app:checkedButton="@+id/search_makanan"
-            app:selectionRequired="true"
-            >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/search_fragment_search_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/darker_gray"
+                    android:text="Telusuri"
+                    android:textSize="16sp"
+                    app:icon="@drawable/ic_search"
+                    app:iconSize="24dp"
+                    android:layout_marginHorizontal="36dp"
+                    app:iconTint="@android:color/darker_gray"
+                    app:cornerRadius="20dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:backgroundTint="@color/white" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/search_makanan"
-                style="@style/button_search_selector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:shapeAppearance="@style/rounded_shape"
-                android:text="Makanan" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/search_senyawa"
-                style="@style/button_search_selector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Senyawa" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/search_brand"
-                style="@style/button_search_selector"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:shapeAppearance="@style/rounded_shape"
-                android:text="Brand"
-                 />
-
-        </com.google.android.material.button.MaterialButtonToggleGroup>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/search_fragment_search_bar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="12dp"
-            android:layout_marginTop="24dp"
-            android:backgroundTint="@color/greyPrimary"
-            android:textAlignment="textStart"
-            android:textAllCaps="false"
-            android:textColor="@android:color/darker_gray"
-            android:text="Cari"
-            android:textSize="16sp"
-            android:elevation="0dp"
-            app:icon="@drawable/ic_search"
-            app:iconSize="24dp"
-            app:iconTint="@android:color/darker_gray"
-             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="Pencarian Terpopuler"
-            android:textStyle="bold"
-            android:textSize="18sp"
             android:textColor="@color/black"
-            />
+            android:layout_marginHorizontal="36dp"
+            android:textStyle="bold" />
+
+        <include layout="@layout/loading_search_result_shimmer" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/search_results"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="@dimen/vertical_sub_section_margin"
             android:overScrollMode="never"
+            android:layout_marginHorizontal="36dp"
 
             />
 

@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="100 kcal"
-            android:textColor="@color/bluePrimary"
+            android:textColor="@android:color/darker_gray"
             android:id="@+id/value_sub_nutrition_info"
             />
 

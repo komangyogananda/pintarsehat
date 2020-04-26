@@ -9,10 +9,11 @@
     <string name="search_selector_compounds">Senyawa</string>
     <string name="search_selector_brand">Brand</string>
     <string name="bullet_divider"> • </string>
-    <string name="details_summary_tile">Ringkasan Gizi</string>
+    <string name="details_summary_tile">Ringkasan</string>
     <string name="title_nutrition_info">Informasi Gizi</string>
     <string name="title_other_portion_section">Porsi lainnya</string>
     <string name="disclaimer_akg">Berdasarkan AKG dari 2000 kalori</string>
     <string name="title_photo_fragment">Ketahui nutrisi makananmu!</string>
     <string name="description_photo_fragment">Ambil foto dan biarkan aplikasi kami menyediakan informasi nutrisi untuk anda!</string>
+    <string name="sign_in_subtitle">Selamat datang di PintarSehat \nWujudkan gizi sehat dan seimbang anda</string>
 </resources>

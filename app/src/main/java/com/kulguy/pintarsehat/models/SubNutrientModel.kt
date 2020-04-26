@@ -1,4 +1,6 @@
 package com.kulguy.pintarsehat.models
 
-class SubNutrientModel(val title: String, val value: String) {
-}
+data class SubNutrientModel(
+    var title: String = "",
+    var value: String = ""
+)

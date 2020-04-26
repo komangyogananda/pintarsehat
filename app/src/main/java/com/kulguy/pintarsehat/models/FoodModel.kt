@@ -1,4 +1,10 @@
 package com.kulguy.pintarsehat.models
 
-class FoodModel (val title: String, val category: String, val default_portion: String, val portions: MutableMap<String, PortionModel>){
-}
+data class FoodModel(
+    var defaultPortion: String= "",
+    var title: String = "",
+    var category: String= "",
+    var portions: MutableMap<String, PortionModel> = mutableMapOf(),
+    var refId: String = "",
+    var clicked: Int = 0
+)

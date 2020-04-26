@@ -5,7 +5,7 @@ import sys
 import json
 import time
 
-f = open('foods.json', 'r')
+f = open('foodsv2.json', 'r')
 foods_collections = json.load(f)
 f.close()
 
@@ -16,11 +16,12 @@ for key in foods_collections:
   food_index = {
     "title": food["title"],
     "category": food["category"],
-    "summary": food["portions"][food["default_portion"]]["summary"],
-    "defaultPortion": food["default_portion"],
+    "summary": food["portions"][food["defaultPortion"]]["summary"],
+    "defaultPortion": food["defaultPortion"],
     "portions": len(food["portions"]) - 1,
     "objectID": key,
     'clicked': 0,
+    "refId": key
   }
   algolia.append(food_index)
   print (key)

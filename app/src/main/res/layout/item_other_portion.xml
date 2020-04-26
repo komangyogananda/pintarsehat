@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_white_frame"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="12dp"
+    android:clickable="true"
+    android:id="@+id/other_portion_layout_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Mangkok 200 g"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:clickable="false"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/other_portion_text"/>
+
+    <ImageButton
+        android:layout_height="16dp"
+        android:layout_width="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_checkmark"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

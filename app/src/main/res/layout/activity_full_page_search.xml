@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bluePrimary10"
     tools:context=".activities.FullPageSearchActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/search_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:layout_alignParentTop="true"
@@ -18,6 +18,9 @@
         android:contentInsetStart="0dp"
         app:contentInsetLeft="0dp"
         app:contentInsetStart="0dp"
+        android:background="@drawable/rounded_search_bar"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
         >
 
         <SearchView
@@ -25,12 +28,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:background="@drawable/rounded_search_bar"
-            android:padding="4dp"
             android:layout_marginHorizontal="12dp"
             android:layout_marginVertical="8dp"
             android:iconifiedByDefault="false"
             android:focusedByDefault="true"
+            android:queryBackground="@android:color/transparent"
             />
     </androidx.appcompat.widget.Toolbar>
 
@@ -81,7 +83,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:layout_marginBottom="@dimen/vertical_sub_section_margin"
             >
+
+            <include layout="@layout/loading_search_result_shimmer"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -100,6 +105,7 @@
                 android:id="@+id/full_page_search_results"
                 />
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
 
 </RelativeLayout>

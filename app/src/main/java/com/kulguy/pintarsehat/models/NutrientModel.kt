@@ -1,4 +1,7 @@
 package com.kulguy.pintarsehat.models
 
-class NutrientModel (val title: String, val value: String, val sub: ArrayList<SubNutrientModel> = arrayListOf()) {
-}
+data class NutrientModel(
+    var title: String = "",
+    var sub: ArrayList<SubNutrientModel> = arrayListOf(),
+    var value: String = ""
+)

@@ -4,6 +4,10 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.Spanned
+import android.text.style.ForegroundColorSpan
 import android.util.Log
 import android.view.Window
 import android.view.WindowManager
@@ -28,11 +32,9 @@ class MainActivity : AppCompatActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         FirebaseApp.initializeApp(this);
         super.onCreate(savedInstanceState)
-//        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//        WindowManager.LayoutParams.FLAG_FULLSCREEN)
         supportActionBar?.hide()
         setContentView(R.layout.activity_main)
-
+        generateSubtitleText()
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.firebase_web_client_id))
             .requestEmail()
@@ -47,6 +49,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun generateSubtitleText(){
+        val text = sign_in_subtitle_text.text
+        val ss = SpannableString(text)
+        val blueColor = ForegroundColorSpan(getColor(R.color.bluePrimary))
+        val pintarSehat = "PintarSehat"
+        val index = text.indexOf(pintarSehat)
+        ss.setSpan(blueColor, index, index + pintarSehat.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+        sign_in_subtitle_text.text = ss
+    }
 
     public override fun onStart() {
         super.onStart()

@@ -15,12 +15,15 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kulguy.pintarsehat.R
+import com.kulguy.pintarsehat.activities.DashboardActivity
 import com.kulguy.pintarsehat.activities.FoodDetailsActivity
 import com.kulguy.pintarsehat.activities.FullPageSearchActivity
 import com.kulguy.pintarsehat.adapters.OnSearchResultListener
 import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.TopSearchViewModel
+import kotlinx.android.synthetic.main.loading_search_result_shimmer.*
+import java.io.Serializable
 
 
 /**
@@ -30,8 +33,6 @@ class SearchFragment : Fragment(),
     OnSearchResultListener {
 
     private var topSearch: ArrayList<SearchResultModel> = ArrayList<SearchResultModel>()
-    private val loadingDialog: LoadingDialogFragment = LoadingDialogFragment()
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -42,37 +43,13 @@ class SearchFragment : Fragment(),
         val searchButton = view.findViewById<Button>(R.id.search_fragment_search_bar)
         searchButton.setOnClickListener{
             val intent = Intent(activity, FullPageSearchActivity::class.java)
+            val sendTopSearch = Bundle()
+            sendTopSearch.putSerializable("data", topSearch as Serializable)
+            intent.putExtra("topSearch", sendTopSearch)
             startActivity(intent)
         }
 
         return view
-    }
-
-    private fun showLoadingDialog(){
-        Log.w("Dialog", "FragmentInit")
-        activity?.let {
-            var fragmentManager: FragmentManager = it.supportFragmentManager
-            var fragmentTransaction = fragmentManager.beginTransaction()
-            val prev = fragmentManager.findFragmentByTag("dialog")
-            if (prev != null){
-                fragmentTransaction.remove(prev)
-            }
-            fragmentTransaction.addToBackStack(null)
-        loadingDialog.show(fragmentTransaction, "dialog")
-        }
-    }
-
-    private fun dismissLoadingDialog(){
-        loadingDialog.dismiss()
-        activity?.let {
-            var fragmentManager: FragmentManager = it.supportFragmentManager
-            var fragmentTransaction = fragmentManager.beginTransaction()
-            val prev = fragmentManager.findFragmentByTag("dialog")
-            if (prev != null){
-                fragmentTransaction.remove(prev)
-            }
-        }
-        Log.w("Dialog", "Dismissed")
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -81,22 +58,26 @@ class SearchFragment : Fragment(),
         val itemDecorator = DividerItemDecoration(context, DividerItemDecoration.VERTICAL)
         activity?.getDrawable(R.drawable.divider_vertical)?.let { itemDecorator.setDrawable(it) }
         searchListView.addItemDecoration(itemDecorator)
+    }
+
+    private fun showLoadingSearchResults(){
+        search_results_loading_shimmer.visibility = View.VISIBLE
+    }
+
+    private fun dismissLoadingSearchResults(){
+        search_results_loading_shimmer.visibility = View.GONE
+    }
+
+    override fun onStart() {
+        super.onStart()
         val topSearchViewModel = ViewModelProviders.of(this).get(TopSearchViewModel::class.java)
-        val topSearchResult = topSearchViewModel.getTopSearches({
-//            showLoadingDialog()
-            true
-        }, {
-//            dismissLoadingDialog()
-            true
-        })
+        showLoadingSearchResults()
+        val topSearchResult = topSearchViewModel.getTopSearches()
         topSearchResult?.observe(this, Observer<ArrayList<SearchResultModel>>{
             topSearch = it
             updateUI()
+            dismissLoadingSearchResults()
         })
-
-
-
-
     }
 
     private fun updateUI(){
@@ -114,6 +95,8 @@ class SearchFragment : Fragment(),
     override fun onSearchResultClick(position: Int) {
         Log.w("Recycle View", "Click " + position)
         val intent = Intent(activity, FoodDetailsActivity::class.java)
+        intent.putExtra("refId", topSearch[position].refId)
+        intent.putExtra("activePortion", topSearch[position].defaultPortion)
         startActivity(intent)
     }
 

@@ -1,5 +1,7 @@
 package com.kulguy.pintarsehat.models
 
-class PortionModel (val title: String, val summary: ArrayList<Pair<String, String>>, val nutrients: ArrayList<NutrientModel>) {
-
-}
+data class PortionModel(
+    var title: String = "",
+    var summary: MutableMap<String, Any> = mutableMapOf(),
+    var nutrient: ArrayList<NutrientModel> = arrayListOf()
+)

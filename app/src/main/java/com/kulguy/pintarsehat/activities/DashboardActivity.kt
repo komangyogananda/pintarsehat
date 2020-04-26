@@ -14,12 +14,14 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.kulguy.pintarsehat.*
 import com.kulguy.pintarsehat.fragments.DailyNutritionFragment
+import com.kulguy.pintarsehat.fragments.LoadingDialogFragment
 import com.kulguy.pintarsehat.fragments.PhotoFragment
 import com.kulguy.pintarsehat.fragments.SearchFragment
+import com.kulguy.pintarsehat.interfaces.DialogInterface
 import kotlinx.android.synthetic.main.activity_dashboard.*
 import kotlinx.android.synthetic.main.dashboard_content.*
 
-class DashboardActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity(), DialogInterface {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
@@ -31,15 +33,12 @@ class DashboardActivity : AppCompatActivity() {
     private val fragment3: Fragment =
         DailyNutritionFragment()
     private var activeFragment: Fragment = fragment1
+    override val loadingDialog: LoadingDialogFragment = LoadingDialogFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        window.setFlags(
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//            WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        setSupportActionBar(toolbar)
+//        setSupportActionBar(toolbar)
         setContentView(R.layout.activity_dashboard)
-
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.firebase_web_client_id))
             .requestEmail()
@@ -59,6 +58,7 @@ class DashboardActivity : AppCompatActivity() {
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment2, "fragment2").hide(fragment2).commit()
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment1, "fragment1").commit()
         bottom_navigation.setOnNavigationItemSelectedListener(mBottomNavigationOnNavigationSelectedListener)
+        bottom_navigation.selectedItemId = R.id.navigation_nutrionist
     }
 
     private val mBottomNavigationOnNavigationSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
