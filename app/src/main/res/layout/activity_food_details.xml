@@ -8,6 +8,7 @@
 
         <include
             layout="@layout/loading_page"
+            android:visibility="gone"
             />
 
         <ScrollView
@@ -98,92 +99,9 @@
 
                             </TextView>
 
-                            <!--                        <com.google.android.flexbox.FlexboxLayout-->
-                            <!--                            android:layout_width="match_parent"-->
-                            <!--                            android:layout_height="wrap_content"-->
-                            <!--                            android:paddingHorizontal="@dimen/horizontal_margin"-->
-                            <!--                            android:layout_marginTop="16dp"-->
-                            <!--                            app:flexWrap="wrap"-->
-                            <!--                            app:alignItems="stretch"-->
-                            <!--                            app:showDivider="middle"-->
-                            <!--                            app:dividerDrawable="@drawable/divider"-->
-                            <!--                            android:id="@+id/item_food_details_summary"-->
-                            <!--                            >-->
+                            <include layout="@layout/item_food_summary"/>
 
-                            <!--                        </com.google.android.flexbox.FlexboxLayout>-->
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="16dp"
-                                android:orientation="horizontal">
-
-                                <com.google.android.flexbox.FlexboxLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    app:flexDirection="column"
-                                    app:showDivider="middle"
-                                    app:dividerDrawable="@drawable/divider"
-                                    android:id="@+id/summary_details_left"
-                                    android:layout_marginRight="6dp"
-                                    android:layout_weight="1">
-
-                                </com.google.android.flexbox.FlexboxLayout>
-
-                                <com.google.android.flexbox.FlexboxLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    app:flexDirection="column"
-                                    app:showDivider="middle"
-                                    android:layout_marginLeft="6dp"
-                                    app:dividerDrawable="@drawable/divider"
-                                    android:id="@+id/summary_details_right"
-                                    android:layout_weight="1">
-
-                                </com.google.android.flexbox.FlexboxLayout>
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:background="@drawable/rounded_white_frame"
-                                android:layout_marginTop="16dp"
-                                android:padding="12dp">
-
-                                <ImageView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:src="@drawable/ic_chart_illustration"/>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical"
-                                    android:layout_marginLeft="16dp">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="Angka Kecukupan Gizi"
-                                        android:textColor="@color/black"
-                                        android:textStyle="bold"
-                                        android:textAllCaps="true"/>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="20 %"
-                                        android:textColor="@color/bluePrimary"
-                                        android:textStyle="bold"
-                                        android:id="@+id/food_details_akg"
-                                        android:textAllCaps="true"/>
-
-                                </LinearLayout>
-
-                            </LinearLayout>
+                            <include layout="@layout/item_angka_kecukupan_gizi"/>
 
                         </LinearLayout>
 

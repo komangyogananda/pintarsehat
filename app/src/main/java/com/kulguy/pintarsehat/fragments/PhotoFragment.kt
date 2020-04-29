@@ -11,6 +11,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.snackbar.Snackbar
@@ -37,7 +38,7 @@ class PhotoFragment : Fragment(), EasyPermissions.PermissionCallbacks {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_photo, container, false)
-        val cameraButton = view.findViewById<MaterialButton>(R.id.button_open_camera)
+        val cameraButton = view.findViewById<LinearLayout>(R.id.button_open_camera)
         cameraButton.setOnClickListener {
             validatePermissions()
         }

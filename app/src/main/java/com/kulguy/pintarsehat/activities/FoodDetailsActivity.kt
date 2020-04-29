@@ -20,6 +20,8 @@ import com.kulguy.pintarsehat.models.FoodModel
 import com.kulguy.pintarsehat.models.NutrientModel
 import com.kulguy.pintarsehat.viewmodel.FoodDetailsViewModel
 import kotlinx.android.synthetic.main.activity_food_details.*
+import kotlinx.android.synthetic.main.item_angka_kecukupan_gizi.*
+import kotlinx.android.synthetic.main.item_food_summary.*
 import kotlinx.android.synthetic.main.loading_page.*
 import kotlin.math.ceil
 import kotlin.math.roundToInt

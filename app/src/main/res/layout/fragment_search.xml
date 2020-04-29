@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,10 +11,33 @@
         android:id="@+id/search_linear_layout_parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="12dp"
         android:clipToPadding="false"
         android:focusableInTouchMode="true"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:contentScrim="@color/bluePrimary70"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bluePrimary70"
+                android:padding="@dimen/horizontal_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ic_search_illustration"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -25,6 +48,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             android:layout_marginHorizontal="36dp"
+            android:layout_marginTop="18dp"
             android:textStyle="bold" />
 
                 <com.google.android.material.button.MaterialButton
@@ -70,4 +94,4 @@
 
     </LinearLayout>
 
-</FrameLayout>
+</androidx.core.widget.NestedScrollView>
