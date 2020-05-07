@@ -136,6 +136,21 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.button.MaterialButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:id="@+id/add_to_daily_nutrition"
+                                style="@style/rounded_white_button"
+                                android:text="Tambahkan porsi ini ke nutrisi harian"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/horizontal_margin"
                             android:layout_below="@id/food_nutrition_details"
                             android:orientation="vertical"

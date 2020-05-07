@@ -11,7 +11,7 @@ class FoodDetailsViewModel : ViewModel() {
 
     private var food: MutableLiveData<FoodModel>? = null
     private val db = FirebaseFirestore.getInstance()
-    private val foodsRef = db.collection("foodsv2")
+    private val foodsRef = db.collection("foods")
 
     fun getFood(refId: String, onStartSearch: () -> Boolean = {true}, onFinishedSearch: () -> Boolean = { true }): MutableLiveData<FoodModel>? {
         if (food == null){
@@ -29,6 +29,7 @@ class FoodDetailsViewModel : ViewModel() {
         var result: FoodModel? = null
         foodsRef.document(refId).get().addOnSuccessListener {
             result = it.toObject(FoodModel::class.java)
+            result?.activePortion = result?.defaultPortion!!
         }.addOnCompleteListener{
             onFinishedSearch()
             if (!it.isSuccessful){

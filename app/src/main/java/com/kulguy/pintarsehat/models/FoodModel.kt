@@ -7,4 +7,6 @@ data class FoodModel(
     var portions: MutableMap<String, PortionModel> = mutableMapOf(),
     var refId: String = "",
     var clicked: Int = 0
-)
+){
+    var activePortion = defaultPortion
+}

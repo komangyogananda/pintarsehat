@@ -33,7 +33,7 @@ class SearchResultViewHolder :
         title?.text = searchResultModel.title
         var categoryText: String = searchResultModel.category + " " + itemView.context.resources.getString(
             R.string.bullet_divider
-        ) + " " + searchResultModel.defaultPortion
+        ) + " " + searchResultModel.activePortion
         if (searchResultModel.portions > 0){
             categoryText += " " + itemView.context.resources.getString(
                 R.string.bullet_divider

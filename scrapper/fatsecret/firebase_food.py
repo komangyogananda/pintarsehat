@@ -4,6 +4,8 @@ from firebase_admin import firestore
 import sys
 import json
 import uuid
+import hashlib
+import sys
 
 cred = credentials.Certificate('pintarsehat_firebase.json')
 firebase_admin.initialize_app(cred)
@@ -16,7 +18,7 @@ f.close()
 
 new_foods = {}
 
-foods_collections = db.collection(u'foodsv2')
+foods_collections = db.collection(u'foods')
 
 start_point = None
 found = True
@@ -25,7 +27,8 @@ count = 0
 
 for food in foods:
   doc = foods[food]
-  key = str(uuid.uuid4())
+  key = doc["category"] + doc["title"]
+  key = str(hashlib.md5(key.encode()).hexdigest())
   doc["refId"] = key
   doc["defaultPortion"] = doc["default_portion"]
   doc.pop("default_portion")
@@ -41,6 +44,6 @@ for food in foods:
     print("skipping", end=" ")
   print("{}/{}".format(count, len(foods)))
 
-f = open("foodsv2.json", "w")
+f = open("foodsv3.json", "w")
 f.write(json.dumps(new_foods, indent=2, ensure_ascii=False))
 f.close()

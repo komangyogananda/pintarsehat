@@ -11,7 +11,7 @@ class TopSearchViewModel : ViewModel() {
 
     private var topSearches: MutableLiveData<ArrayList<SearchResultModel>>? = null
     private val db = FirebaseFirestore.getInstance()
-    private val foodsRef = db.collection("foodsv2")
+    private val foodsRef = db.collection("foods")
 
     fun getTopSearches(): MutableLiveData<ArrayList<SearchResultModel>>? {
         if (topSearches == null){
@@ -28,6 +28,7 @@ class TopSearchViewModel : ViewModel() {
         foodsRef.limit(10).get().addOnSuccessListener {
             it.documents.forEach { docSnapshot ->
                 docSnapshot.toObject(FoodModel::class.java)?.let { foodModel ->
+                    foodModel.activePortion = foodModel.defaultPortion
                     SearchResultModel.invoke(
                         foodModel
                     )

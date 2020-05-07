@@ -5,7 +5,7 @@ import sys
 import json
 import time
 
-f = open('foodsv2.json', 'r')
+f = open('foodsv3.json', 'r')
 foods_collections = json.load(f)
 f.close()
 

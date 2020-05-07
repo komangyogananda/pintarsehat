@@ -22,6 +22,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.kulguy.pintarsehat.R
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_daily_nutrition.*
+import java.text.DateFormat
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 

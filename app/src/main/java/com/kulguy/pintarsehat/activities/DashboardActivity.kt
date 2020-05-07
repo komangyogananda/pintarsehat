@@ -20,6 +20,10 @@ import com.kulguy.pintarsehat.fragments.SearchFragment
 import com.kulguy.pintarsehat.interfaces.DialogInterface
 import kotlinx.android.synthetic.main.activity_dashboard.*
 import kotlinx.android.synthetic.main.dashboard_content.*
+import kotlinx.android.synthetic.main.fragment_daily_nutrition.*
+import java.text.DateFormat
+import java.text.SimpleDateFormat
+import java.util.*
 
 class DashboardActivity : AppCompatActivity(), DialogInterface {
 

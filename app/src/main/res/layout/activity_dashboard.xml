@@ -11,10 +11,9 @@
 
     <include
         layout="@layout/dashboard_content"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"/>
 
 <!--    End of Fragment Container-->
 
@@ -30,8 +29,8 @@
         app:itemTextColor="@drawable/bottom_navigation_selector"
         app:menu="@menu/bottom_navigation_menu"
         app:labelVisibilityMode="unlabeled"
-        android:layout_alignParentBottom="true"
         app:elevation="0dp"
+        android:layout_alignParentBottom="true"
         app:itemRippleColor="@color/bluePrimary70"
         tools:layout_editor_absoluteX="0dp" />
 
