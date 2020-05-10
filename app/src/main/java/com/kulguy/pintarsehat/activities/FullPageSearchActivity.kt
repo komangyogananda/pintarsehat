@@ -27,6 +27,7 @@ class FullPageSearchActivity : AppCompatActivity(),
     private var searchListModel: ArrayList<SearchResultModel> = ArrayList()
     private var querySearchIsChanged: Boolean = false
     private var firstTime: Boolean = true
+    private var initialSearchValue: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,13 +41,19 @@ class FullPageSearchActivity : AppCompatActivity(),
 //        val bundle = intent.getBundleExtra("topSearch")
 //        topSearch = bundle.getSerializable("data") as ArrayList<SearchResultModel>
 //        searchListModel = topSearch
+
         search_results_loading_shimmer.visibility = View.GONE
         full_page_search_results.visibility = View.GONE
         search_empty.visibility = View.GONE
         search_results_counter.visibility = View.GONE
 
-        getTopSearch()
         initSearchToolbar()
+        var initialSearchValue = intent.getStringExtra("SearchValue")
+        if (initialSearchValue != null){
+            search_toolbar_full_page_activity.setQuery(initialSearchValue, true)
+        }else{
+            getTopSearch()
+        }
     }
 
     private fun showLoading(){

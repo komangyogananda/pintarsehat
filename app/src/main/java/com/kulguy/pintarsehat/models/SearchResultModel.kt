@@ -6,7 +6,7 @@ class SearchResultModel(
     var refId: String,
     var title: String,
     var category: String,
-    var activePortion: String,
+    var activePortion: String = "",
     var defaultPortion: String,
     var summary: MutableMap<String, String>,
     var portions: Int = 0,

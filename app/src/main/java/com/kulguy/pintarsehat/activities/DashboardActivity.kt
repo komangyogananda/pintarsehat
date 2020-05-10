@@ -60,7 +60,7 @@ class DashboardActivity : AppCompatActivity(), DialogInterface {
         activeFragment = fragment1
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment3, "fragment3").hide(fragment3).commit()
         fragmentManager.beginTransaction().add(dashboard_content.id, fragment2, "fragment2").hide(fragment2).commit()
-        fragmentManager.beginTransaction().add(dashboard_content.id, fragment1, "fragment1").commit()
+        fragmentManager.beginTransaction().add(dashboard_content.id, fragment1, "activeFragment").commit()
         bottom_navigation.setOnNavigationItemSelectedListener(mBottomNavigationOnNavigationSelectedListener)
         bottom_navigation.selectedItemId = R.id.navigation_nutrionist
     }
