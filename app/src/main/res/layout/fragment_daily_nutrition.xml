@@ -36,6 +36,66 @@
                 android:id="@+id/summary_this_month"
                 android:text="Bulan ini"/>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        android:id="@+id/summary_date_start"
+                        android:text="Rentang Awal"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Belum di set"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/horizontal_margin"
+                        android:id="@+id/summary_date_start_text"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                        android:id="@+id/summary_date_end"
+                        android:text="Rentang Akhir"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Belum di set"
+                        android:layout_gravity="center"
+                        android:id="@+id/summary_date_end_text"
+                        android:layout_marginLeft="@dimen/horizontal_margin"
+                        />
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/vertical_sub_section_margin"
+                    android:id="@+id/summary_range_cta"
+                    android:text="Cari rentang ini"/>
+
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout

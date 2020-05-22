@@ -1,5 +1,6 @@
 package com.kulguy.pintarsehat.fragments
 
+import android.app.DatePickerDialog
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -11,6 +12,7 @@ import android.widget.CalendarView
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModelProviders
@@ -60,6 +62,14 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
     private lateinit var summary_details_left: FlexboxLayout
     private lateinit var food_details_akg: TextView
     private lateinit var summary_this_month: MaterialButton
+    private lateinit var summary_date_start: MaterialButton
+    private lateinit var summary_date_start_text: TextView
+    private lateinit var summary_date_end: MaterialButton
+    private lateinit var summary_date_end_text: TextView
+    private lateinit var summary_range_cta: MaterialButton
+    private lateinit var startDateRange: Date
+    private lateinit var endDateRange: Date
+    private val formatter = SimpleDateFormat("yyyy-MM-dd")
     private var totalSummary: MutableMap<String, Double> = mutableMapOf()
 
     private fun fetchDailyNutrition(){
@@ -181,6 +191,11 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         summary_details_right = view.findViewById(R.id.summary_details_right)
         food_details_akg = view.findViewById(R.id.food_details_akg)
         summary_this_month = view.findViewById(R.id.summary_this_month)
+        summary_date_start = view.findViewById(R.id.summary_date_start)
+        summary_date_start_text = view.findViewById(R.id.summary_date_start_text)
+        summary_date_end = view.findViewById(R.id.summary_date_end)
+        summary_date_end_text = view.findViewById(R.id.summary_date_end_text)
+        summary_range_cta = view.findViewById(R.id.summary_range_cta)
     }
 
     private fun initFragment(view: View){
@@ -210,6 +225,7 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         foodList.addItemDecoration(itemDecorator)
     }
 
+    @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -232,21 +248,61 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         calendar.maxDate = calendar.date
 
         summary_this_month.setOnClickListener {
-            val listOfDate = generateListOfDateMonth()
+            val c = Calendar.getInstance()
+            val startDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 1}-01")
+            val endDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 2}-01")
+            val listOfDate = generateListOfDate(startDate, endDate)
             showLoading()
             dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, listOfDate)
             displayDate.text = "Bulan ini"
+        }
 
+        summary_date_start.setOnClickListener {
+            val start_calendar = Calendar.getInstance()
+            val mYear = start_calendar.get(Calendar.YEAR)
+            val mMonth = start_calendar.get(Calendar.MONTH)
+            val mDate = start_calendar.get(Calendar.DATE)
+
+            val datePickerDialog =
+                context?.let { it1 ->
+                    val dpd = DatePickerDialog(it1, DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->
+                        summary_date_start_text.text = "${dayOfMonth} ${lookupMonth[month]} ${year}"
+                        startDateRange = formatter.parse("${year}-${month + 1}-${dayOfMonth}")
+                    }, mYear, mMonth, mDate)
+                    dpd.show()
+                }
+        }
+
+        summary_date_end.setOnClickListener {
+            val end_calendar = Calendar.getInstance()
+            val mYear = end_calendar.get(Calendar.YEAR)
+            val mMonth = end_calendar.get(Calendar.MONTH)
+            val mDate = end_calendar.get(Calendar.DATE)
+
+            val datePickerDialog =
+                context?.let { it1 ->
+                    val dpd = DatePickerDialog(it1, DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->
+                        summary_date_end_text.text = "${dayOfMonth} ${lookupMonth[month]} ${year}"
+                        endDateRange = formatter.parse("${year}-${month + 1}-${dayOfMonth + 1}")
+                    }, mYear, mMonth, mDate)
+                    dpd.show()
+                }
+        }
+
+        summary_range_cta.setOnClickListener {
+            val listOfDate = generateListOfDate(startDateRange, endDateRange)
+            showLoading()
+            dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, listOfDate)
+            displayDate.text = "${summary_date_start_text.text} - ${summary_date_end_text.text}"
         }
 
         return view
     }
 
-    private fun generateListOfDateMonth(): ArrayList<String>{
+    private fun generateListOfDate(startDate: Date, endDate: Date): ArrayList<String>{
         val c = Calendar.getInstance()
-        val formatter = SimpleDateFormat("yyyy-MM-dd")
-        val startDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 1}-01")
-        val endDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 2}-01")
+//        val startDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 1}-01")
+//        val endDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 2}-01")
         c.time = startDate
         val end = Calendar.getInstance()
         end.time = endDate
