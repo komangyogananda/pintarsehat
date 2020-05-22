@@ -120,7 +120,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tidak ada data pada hari ini"
+                    android:text="Tidak ada data"
                     android:layout_marginTop="@dimen/vertical_section_margin"
                     android:textStyle="bold"
                     android:textColor="@color/black"

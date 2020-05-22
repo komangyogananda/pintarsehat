@@ -67,8 +67,8 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
     private lateinit var summary_date_end: MaterialButton
     private lateinit var summary_date_end_text: TextView
     private lateinit var summary_range_cta: MaterialButton
-    private lateinit var startDateRange: Date
-    private lateinit var endDateRange: Date
+    private var startDateRange: Date? = null
+    private var endDateRange: Date? = null
     private val formatter = SimpleDateFormat("yyyy-MM-dd")
     private var totalSummary: MutableMap<String, Double> = mutableMapOf()
 
@@ -259,6 +259,9 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
 
         summary_date_start.setOnClickListener {
             val start_calendar = Calendar.getInstance()
+            startDateRange?.let {
+                start_calendar.time = it
+            }
             val mYear = start_calendar.get(Calendar.YEAR)
             val mMonth = start_calendar.get(Calendar.MONTH)
             val mDate = start_calendar.get(Calendar.DATE)
@@ -269,12 +272,19 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
                         summary_date_start_text.text = "${dayOfMonth} ${lookupMonth[month]} ${year}"
                         startDateRange = formatter.parse("${year}-${month + 1}-${dayOfMonth}")
                     }, mYear, mMonth, mDate)
+                    dpd.datePicker.maxDate = calendar.date
+                    endDateRange?.let {
+                        dpd.datePicker.maxDate = it.time
+                    }
                     dpd.show()
                 }
         }
 
         summary_date_end.setOnClickListener {
             val end_calendar = Calendar.getInstance()
+            endDateRange?.let {
+                end_calendar.time = it
+            }
             val mYear = end_calendar.get(Calendar.YEAR)
             val mMonth = end_calendar.get(Calendar.MONTH)
             val mDate = end_calendar.get(Calendar.DATE)
@@ -283,34 +293,43 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
                 context?.let { it1 ->
                     val dpd = DatePickerDialog(it1, DatePickerDialog.OnDateSetListener { view, year, month, dayOfMonth ->
                         summary_date_end_text.text = "${dayOfMonth} ${lookupMonth[month]} ${year}"
-                        endDateRange = formatter.parse("${year}-${month + 1}-${dayOfMonth + 1}")
+                        endDateRange = formatter.parse("${year}-${month + 1}-${dayOfMonth}")
                     }, mYear, mMonth, mDate)
+                    dpd.datePicker.maxDate = calendar.date
                     dpd.show()
                 }
         }
 
         summary_range_cta.setOnClickListener {
-            val listOfDate = generateListOfDate(startDateRange, endDateRange)
-            showLoading()
-            dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, listOfDate)
-            displayDate.text = "${summary_date_start_text.text} - ${summary_date_end_text.text}"
+            if (startDateRange != null && endDateRange != null){
+                val listOfDate = generateListOfDate(startDateRange!!, endDateRange!!, true)
+                showLoading()
+                dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, listOfDate)
+                displayDate.text = "${summary_date_start_text.text} - ${summary_date_end_text.text}"
+            }
         }
 
         return view
     }
 
-    private fun generateListOfDate(startDate: Date, endDate: Date): ArrayList<String>{
+    private fun generateListOfDate(startDate: Date, endDate: Date, inclusive: Boolean = false): ArrayList<String>{
         val c = Calendar.getInstance()
-//        val startDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 1}-01")
-//        val endDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 2}-01")
         c.time = startDate
         val end = Calendar.getInstance()
         end.time = endDate
         var result = arrayListOf<String>()
-        while (c < end){
-            val dateNow = "${c.get(Calendar.DAY_OF_MONTH).toString().padStart(2, '0')} ${(c.get(Calendar.MONTH) + 1).toString().padStart(2, '0')} ${c.get(Calendar.YEAR).toString().padStart(4, '0')}"
-            result.add(dateNow)
-            c.add(Calendar.DATE, 1)
+        if (inclusive){
+            while (c <= end){
+                val dateNow = "${c.get(Calendar.DAY_OF_MONTH).toString().padStart(2, '0')} ${(c.get(Calendar.MONTH) + 1).toString().padStart(2, '0')} ${c.get(Calendar.YEAR).toString().padStart(4, '0')}"
+                result.add(dateNow)
+                c.add(Calendar.DATE, 1)
+            }
+        }else{
+            while (c < end){
+                val dateNow = "${c.get(Calendar.DAY_OF_MONTH).toString().padStart(2, '0')} ${(c.get(Calendar.MONTH) + 1).toString().padStart(2, '0')} ${c.get(Calendar.YEAR).toString().padStart(4, '0')}"
+                result.add(dateNow)
+                c.add(Calendar.DATE, 1)
+            }
         }
         return result
     }
