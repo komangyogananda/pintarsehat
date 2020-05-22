@@ -1,9 +1,9 @@
 package com.kulguy.pintarsehat.fragments
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,13 +11,14 @@ import android.widget.CalendarView
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.flexbox.FlexboxLayout
+import com.google.android.material.button.MaterialButton
 import com.google.firebase.auth.FirebaseAuth
 import com.kulguy.pintarsehat.R
 import com.kulguy.pintarsehat.activities.FoodDetailsActivity
@@ -27,7 +28,7 @@ import com.kulguy.pintarsehat.adapters.SearchResultArrayListAdapter
 import com.kulguy.pintarsehat.models.DailyNutritionModel
 import com.kulguy.pintarsehat.models.SearchResultModel
 import com.kulguy.pintarsehat.viewmodel.DailyNutritionViewModel
-import kotlinx.android.synthetic.main.activity_full_page_search.*
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.math.ceil
@@ -39,10 +40,11 @@ import kotlin.math.roundToInt
 class DailyNutritionFragment : Fragment(), OnSearchResultListener {
 
     private var currentDate = Calendar.getInstance()
+    private var currentMonth = currentDate.get(Calendar.MONTH) + 1
     private val lookupMonth = arrayOf("Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "Oktober", "November", "Desember")
     private lateinit var calendar: CalendarView
     private lateinit var displayDate: TextView
-    private lateinit var dailyNutritionModel: DailyNutritionModel
+    private lateinit var dailyNutritionModel: ArrayList<DailyNutritionModel>
     private lateinit var auth: FirebaseAuth
     private var currentDateString: String = ""
     private var currentDateKey: String = ""
@@ -50,18 +52,19 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
     private lateinit var loading: RelativeLayout
     private lateinit var emptydata: LinearLayout
     private lateinit var dailyNutritionViewModel: DailyNutritionViewModel
-    private lateinit var fetchResult: MutableLiveData<DailyNutritionModel>
+    private lateinit var fetchResult: MutableLiveData<ArrayList<DailyNutritionModel>>
     private lateinit var addNewFoods: LinearLayout
     private lateinit var foodList: RecyclerView
     private var searchListModel: ArrayList<SearchResultModel> = arrayListOf()
     private lateinit var summary_details_right: FlexboxLayout
     private lateinit var summary_details_left: FlexboxLayout
     private lateinit var food_details_akg: TextView
+    private lateinit var summary_this_month: MaterialButton
     private var totalSummary: MutableMap<String, Double> = mutableMapOf()
 
     private fun fetchDailyNutrition(){
         showLoading()
-        dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, currentDateKey)
+        dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, arrayListOf(currentDateKey))
     }
 
     override fun onHiddenChanged(hidden: Boolean) {
@@ -72,8 +75,6 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
             fetchDailyNutrition()
         }
     }
-
-
 
     private fun calculateSummary(){
         totalSummary.clear()
@@ -96,9 +97,12 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
     private fun updateUI(){
         clear()
         searchListModel.clear()
-        dailyNutritionModel.foods.forEach {
-            searchListModel.add(SearchResultModel.invoke(it))
+        dailyNutritionModel.forEach {
+            it.foods.forEach { it2 ->
+                searchListModel.add(SearchResultModel.invoke(it2))
+            }
         }
+        Log.w("searchListModel", searchListModel.toString())
         calculateSummary()
         var idx = 1
         totalSummary.forEach{
@@ -176,6 +180,7 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         summary_details_left = view.findViewById(R.id.summary_details_left)
         summary_details_right = view.findViewById(R.id.summary_details_right)
         food_details_akg = view.findViewById(R.id.food_details_akg)
+        summary_this_month = view.findViewById(R.id.summary_this_month)
     }
 
     private fun initFragment(view: View){
@@ -183,9 +188,10 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         auth = FirebaseAuth.getInstance()
         dailyNutritionViewModel = ViewModelProviders.of(this).get(DailyNutritionViewModel::class.java)
         fetchResult =
-            dailyNutritionViewModel.getDailyNutrition(auth.currentUser?.uid!!, currentDateKey)!!
-        fetchResult?.observe(this, Observer {
+            dailyNutritionViewModel.getDailyNutrition(auth.currentUser?.uid!!, arrayListOf(currentDateKey))!!
+        fetchResult?.observe(this, androidx.lifecycle.Observer {
             if (it != null){
+                Log.w("Di Fragment", it.size.toString())
                 dailyNutritionModel = it
                 dismissLoading()
                 updateUI()
@@ -225,7 +231,32 @@ class DailyNutritionFragment : Fragment(), OnSearchResultListener {
         }
         calendar.maxDate = calendar.date
 
+        summary_this_month.setOnClickListener {
+            val listOfDate = generateListOfDateMonth()
+            showLoading()
+            dailyNutritionViewModel.getDailyNutrition(auth.currentUser!!.uid, listOfDate)
+            displayDate.text = "Bulan ini"
+
+        }
+
         return view
+    }
+
+    private fun generateListOfDateMonth(): ArrayList<String>{
+        val c = Calendar.getInstance()
+        val formatter = SimpleDateFormat("yyyy-MM-dd")
+        val startDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 1}-01")
+        val endDate: Date = formatter.parse("${c.get(Calendar.YEAR)}-${c.get(Calendar.MONTH) + 2}-01")
+        c.time = startDate
+        val end = Calendar.getInstance()
+        end.time = endDate
+        var result = arrayListOf<String>()
+        while (c < end){
+            val dateNow = "${c.get(Calendar.DAY_OF_MONTH).toString().padStart(2, '0')} ${(c.get(Calendar.MONTH) + 1).toString().padStart(2, '0')} ${c.get(Calendar.YEAR).toString().padStart(4, '0')}"
+            result.add(dateNow)
+            c.add(Calendar.DATE, 1)
+        }
+        return result
     }
 
     override fun onSearchResultClick(position: Int) {

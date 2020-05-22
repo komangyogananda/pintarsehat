@@ -8,11 +8,12 @@ import com.kulguy.pintarsehat.models.DailyNutritionModel
 
 class DailyNutritionViewModel : ViewModel() {
 
-    private var dailyNutrition: MutableLiveData<DailyNutritionModel>? = null
+    private var dailyNutrition: MutableLiveData<ArrayList<DailyNutritionModel>>? = null
     private val db = FirebaseFirestore.getInstance()
     private val dailyNutritionFirebaseRef = db.collection("daily_nutritions")
+    private var tempResult = arrayListOf<DailyNutritionModel>()
 
-    fun getDailyNutrition(userId: String, date: String): MutableLiveData<DailyNutritionModel>? {
+    fun getDailyNutrition(userId: String, date: ArrayList<String>): MutableLiveData<ArrayList<DailyNutritionModel>>? {
         if (dailyNutrition == null){
             dailyNutrition = MutableLiveData()
         }
@@ -20,22 +21,42 @@ class DailyNutritionViewModel : ViewModel() {
         return dailyNutrition
     }
 
-    private fun fetchDailyNutrition(userId: String, date: String){
-        Log.w("firestore", "userId $userId date $date")
+    private fun query(chunks: List<List<String>>, userId: String, idx: Int){
         dailyNutritionFirebaseRef
+            .whereIn("date", chunks[idx])
             .whereEqualTo("userId", userId)
-            .whereEqualTo("date", date)
-            .limit(1)
             .get()
-            .addOnSuccessListener {
-                Log.w("firestore", "Suceess" + it.size())
-                if (it.size() == 0){
-                    dailyNutrition?.value = null
+            .addOnSuccessListener { query ->
+                Log.w("firestore", "Suceess" + query.size())
+                if (query.size() != 0){
+                    query.documents.forEach { doc ->
+                        val temp = doc.toObject(DailyNutritionModel::class.java)
+                        temp?.let {dailyModel ->
+                            tempResult.add(dailyModel)
+                        }
+                    }
+                }
+            }.addOnCompleteListener {
+                if (idx != chunks.size - 1){
+                    query(chunks, userId, idx + 1)
                 }else{
-                    val doc = it.documents[0]
-                    dailyNutrition?.value = doc.toObject(DailyNutritionModel::class.java)
+                    Log.w("Kelar", idx.toString())
+                    Log.w("Kelar", tempResult.size.toString())
+                    Log.w("Kelar", tempResult.toString())
+                    if (tempResult.size != 0){
+                        dailyNutrition?.value = tempResult
+                    }else{
+                        dailyNutrition?.value = null
+                    }
                 }
             }
+    }
+
+    private fun fetchDailyNutrition(userId: String, date: ArrayList<String>){
+        Log.w("firestore", "userId $userId date $date")
+        val chunks = date.chunked(10)
+        tempResult = arrayListOf()
+        query(chunks, userId, 0)
     }
 
 }
